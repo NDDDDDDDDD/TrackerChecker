@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 import requests
 
 BeyondHD = "https://beyond-hd.me/register/"
