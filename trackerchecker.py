@@ -330,4 +330,25 @@ if "自由注册当前关闭，只允许邀请注册" in urll:
     print("CHDBits is not open")
 else:
     print(f"CHDBits is open! {r.url}")
+HD_F = "https://hdf.world/register.php"
+r = requests.get(HD_F)
+urll = r.text
+if "ctuellement sur invitation se" in urll:
+    print("HD-F is not open")
+else:
+    print(f"HD-F is open! {r.url}")
+AlphaRatio = "https://alpharatio.cc/register.php"
+r = requests.get(AlphaRatio)
+urll = r.text
+if "e site is currently invite" in urll:
+    print("AlphaRatio is not open")
+else:
+    print(f"AlphaRatio is open! {r.url}")
+dream_torrents = "http://dream-torrents.com/signup.php"
+r = requests.get(dream_torrents)
+urll = r.text
+if "gistration is currently disabl" in urll:
+    print("dream-torrents is not open")
+else:
+    print(f"dream-torrents is open! {r.url}")
 input("Press any button to exit ")
