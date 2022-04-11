@@ -309,3 +309,25 @@ if "自由注册当前关闭，只允许邀" in urll:
     print("HD4FANS is not open")
 else:
     print(f"HD4FANS is open! {r.url}")
+Tophos = "https://tophos.org/signup.php"
+r = requests.get(Tophos)
+urll = r.text
+if "Signups are closed presently" in urll:
+    print("Tophos is not open")
+else:
+    print(f"Tophos is open! {r.url}")
+Spare_Tire = "https://www.beitai.pt/signup.php"
+r = requests.get(Spare_Tire)
+urll = r.text
+if "自由注册当前关闭，只允许邀请注册。如果你" in urll:
+    print("Spare Tire is not open")
+else:
+    print(f"Spare Tire is open! {r.url}")
+CHDBits = "https://chdbits.co/signup.php"
+r = requests.get(CHDBits)
+urll = r.text
+if "自由注册当前关闭，只允许邀请注册" in urll:
+    print("CHDBits is not open")
+else:
+    print(f"CHDBits is open! {r.url}")
+input()
