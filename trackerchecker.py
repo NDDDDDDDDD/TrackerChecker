@@ -103,7 +103,7 @@ else:
 Blutopia = "https://blutopia.xyz/application"
 r = requests.get(Blutopia)
 urll = r.text
-if "Applications Are Closed" in urll:
+if "Applications Are Closed" or "502 Bad Gateway" in urll:
     print("Blutopia is not open")
 else:
     print(f"Blutopia is open! {r.url}")
@@ -198,3 +198,17 @@ if "Sorry, but registrations are closed." in urll:
     print("HellasTZ is not open")
 else:
     print(f"HellasTZ is open! {r.url}")
+HDTime = "https://hdtime.org/signup.php"
+r = requests.get(HDTime)
+urll = r.text
+if "自由注册当前关闭，只允许邀请注册" in urll:
+    print("HDTime is not open")
+else:
+    print(f"HDTime is open! {r.url}")
+MicroBit = "http://microbit.eu/signup.php"
+r = requests.get(MicroBit)
+urll = r.text
+if "Az oldalon jelenleg nincs sz" in urll:
+    print("MicroBit is not open")
+else:
+    print(f"MicroBit is open! {r.url}")
