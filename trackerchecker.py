@@ -330,4 +330,4 @@ if "自由注册当前关闭，只允许邀请注册" in urll:
     print("CHDBits is not open")
 else:
     print(f"CHDBits is open! {r.url}")
-input()
+input("Press any button to exit ")
