@@ -24,14 +24,13 @@ Abnormal
 
 Aither
 
-The Horror CharnelCancel changes
+The Horror Charnel
+
 TorrentDB
 
 AvistaZ
 
 JPTV.CLUB
-
-Blutopia
 
 RetroFlix
 
@@ -58,3 +57,37 @@ Red Star Torrent
 Generation-Free
 
 HellasTZ
+
+HDTime
+
+MicroBit
+
+Peeratiko
+
+PTerClub
+
+Tapochek
+
+TheScenePlace
+
+TOrrent-tuRK
+
+HDMonkey
+
+ChangTrai
+
+Trackeros
+
+TorrentSeeds
+
+LemondHD
+
+Ourbits
+
+TorrentCCF
+
+SoulVoice
+
+HDAtmos
+
+HD4FANS
