@@ -28,13 +28,6 @@ if "We sometimes open registration or application. " in urll:
     print("CinemaZ is not open")
 else:
     print(f"CinemaZ is open! {r.url}")
-HD_Space = "https://hd-space.org/index.php?page=signup"
-r = requests.get(HD_Space)
-urll = r.text
-if "Sorry, but registrations are closed." in urll:
-    print("HD-Space is not open")
-else:
-    print(f"HD-Space is open! {r.url}")
 PrivateHD = "https://privatehd.to/auth/register"
 r = requests.get(PrivateHD)
 urll = r.text
