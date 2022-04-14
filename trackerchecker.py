@@ -35,13 +35,6 @@ if "PrivateHD is Invite Only" in urll:
     print("PrivateHD is not open")
 else:
     print(f"PrivateHD is open! {r.url}")
-Torrentland = "https://torrentland.li/register/null"
-r = requests.get(Torrentland)
-urll = r.text
-if "Registro libre cerrado." in urll:
-    print("Torrentland is not open")
-else:
-    print(f"Torrentland is open! {r.url}")
 eShareNet = "https://esharenet.eu/register/null"
 r = requests.get(eShareNet)
 urll = r.text
@@ -176,13 +169,6 @@ if "Open Registration is Closed" in urll:
     print("Generation-Free is not open")
 else:
     print(f"Generation-Free is open! {r.url}")
-HellasTZ = "https://hellastz.com/index.php?page=signup"
-r = requests.get(HellasTZ)
-urll = r.text
-if "Sorry, but registrations are closed." in urll:
-    print("HellasTZ is not open")
-else:
-    print(f"HellasTZ is open! {r.url}")
 HDTime = "https://hdtime.org/signup.php"
 r = requests.get(HDTime)
 urll = r.text
@@ -284,7 +270,7 @@ else:
 SoulVoice = "https://pt.soulvoice.club/signup.php"
 r = requests.get(SoulVoice)
 urll = r.text
-if "注册当前关闭，只允许邀请注册。如果你" in urll:
+if "由注册当前关闭，只允许邀请" in urll:
     print("SoulVoice is not open")
 else:
     print(f"SoulVoice is open! {r.url}")
