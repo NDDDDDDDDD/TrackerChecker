@@ -40,13 +40,6 @@ if "PrivateHD is Invite Only" in urll:
     print("PrivateHD is not open")
 else:
     print(f"PrivateHD is open! {r.url}")
-Torrentland = "https://torrentland.li/register/null"
-r = requests.get(Torrentland)
-urll = r.text
-if "Registro libre cerrado." in urll:
-    print("Torrentland is not open")
-else:
-    print(f"Torrentland is open! {r.url}")
 eShareNet = "https://esharenet.eu/register/null"
 r = requests.get(eShareNet)
 urll = r.text
@@ -125,13 +118,6 @@ if "Registro libre cerrado. Se necesit" in urll:
     print("HD-Olimpo is not open")
 else:
     print(f"HD-Olimpo is open! {r.url}")
-Torrentland = "https://torrentland.li/register/null"
-r = requests.get(Torrentland)
-urll = r.text
-if "Registro libre cerrado" in urll:
-    print("Torrentland is not open")
-else:
-    print(f"Torrentland is open! {r.url}")
 R3V_WTF = "https://r3vuk.wtf/signup.php"
 r = requests.get(R3V_WTF)
 urll = r.text
