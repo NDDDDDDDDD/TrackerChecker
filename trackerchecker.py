@@ -1,5 +1,4 @@
 import requests
-
 BeyondHD = "https://beyond-hd.me/register/"
 r = requests.get(BeyondHD)
 urll = r.text
@@ -7,6 +6,7 @@ if "n Page!','Whoops!');" in urll:
     print("BeyondHD is not open")
 else:
     print(f"BeyondHD is open! {r.url}")
+    open.append(str(BeyondHD))
 red_bits = "https://red-bits.com/register/null"
 r = requests.get(red_bits)
 urll = r.text
@@ -42,13 +42,6 @@ if "pen Registration is Clos" in urll:
     print("eShareNet is not open")
 else:
     print(f"eShareNet is open! {r.url}")
-Abnormal = "https://abn.lol/Home/Register"
-r = requests.get(Abnormal)
-urll = r.text
-if "Les inscriptions sont fermées pour le moment." in urll:
-    print("Abnormal is not open")
-else:
-    print(f"Abnormal is open! {r.url}")
 Aither = "https://aither.cc/register/null"
 r = requests.get(Aither)
 urll = r.text
@@ -77,7 +70,6 @@ if "AvistaZ is Invite Only" in urll:
     print("AvistaZ is not open")
 else:
     print(f"AvistaZ is open! {r.url}")
-
 JPTV_CLUB = "https://jptv.club/register/null"
 r = requests.get(JPTV_CLUB)
 urll = r.text
@@ -117,6 +109,7 @@ Torrentland = "https://torrentland.li/register/null"
 r = requests.get(Torrentland)
 urll = r.text
 if "Registro libre cerrado" in urll:
+    open.append(f"Torrentland {r.url}")
     print("Torrentland is not open")
 else:
     print(f"Torrentland is open! {r.url}")
@@ -139,6 +132,8 @@ r = requests.get(TellyTorrent)
 urll = r.text
 if "pen Registration is Closed" in urll:
     print("TellyTorrent is not open")
+elif "r 503: Service Unavailabl" in urll:
+    print("TellyTorrent is down at the moment")
 else:
     print(f"TellyTorrent is open! {r.url}")
 ReelFLiX = "https://reelflix.xyz/register/null"
@@ -316,6 +311,7 @@ if "ctuellement sur invitation se" in urll:
     print("HD-F is not open")
 else:
     print(f"HD-F is open! {r.url}")
+
 AlphaRatio = "https://alpharatio.cc/register.php"
 r = requests.get(AlphaRatio)
 urll = r.text
@@ -326,10 +322,11 @@ else:
 ExoticaZ = "https://exoticaz.to/register"
 r = requests.get(ExoticaZ)
 urll = r.text
-if "ExoticaZ is Invite On" in urll:
+if "metimes open registration or applic" in urll:
     print("ExoticaZ is not open")
 else:
     print(f"ExoticaZ is open! {r.url}")
+    ExoticaZ = True
 dream_torrents = "http://dream-torrents.com/signup.php"
 r = requests.get(dream_torrents)
 urll = r.text
