@@ -7,99 +7,93 @@ Current supported trackers:
 BeyondHD
 
 RED-BITS
- 
-AsianCinema 
 
-CinemaZ 
+AsianCinema
 
-HD-Space 
+CinemaZ
 
-PrivateHD 
+PrivateHD
 
-Torrentland 
+eShareNet
 
-eShareNet 
+Aither
 
-Abnormal 
+The Horror Charnel
 
-Aither 
+TorrentDB
 
-The Horror Charnel 
+AvistaZ
 
-TorrentDB 
+JPTV.CLUB
 
-AvistaZ 
+RetroFlix
 
-JPTV.CLUB 
+BwTorrents
 
-RetroFlix 
+hawke-uno
 
-BwTorrents 
+HD-Olimpo
 
-hawke-uno 
+Torrentland
 
-HD-Olimpo 
+R3V WTF!
 
-Torrentland 
+DanishBytes
 
-R3V WTF! 
+TellyTorrent
 
-DanishBytes 
+ReelFLiX
 
-TellyTorrent 
+SkipTheTrailers
 
-ReelFLiX 
+Red Star Torrent
 
-SkipTheTrailers 
+Generation-Free
 
-Red Star Torrent 
+HDTime
 
-Generation-Free 
+MicroBit
 
-HellasTZ 
+Peeratiko
 
-HDTime 
+PTerClub
 
-MicroBit 
+Tapochek
 
-Peeratiko 
+TheScenePlace
 
-PTerClub 
+TOrrent-tuRK
 
-Tapochek 
+HDMonkey
 
-TheScenePlace 
+ChangTrai
 
-TOrrent-tuRK 
+Trackeros
 
-HDMonkey 
+TorrentSeeds
 
-ChangTrai 
+LemondHD
 
-Trackeros 
+Ourbits
 
-TorrentSeeds 
+TorrentCCF
 
-LemondHD 
+SoulVoice
 
-Ourbits 
+HDAtmos
 
-TorrentCCF 
+HD4FANS
 
-SoulVoice 
+Tophos
 
-HDAtmos 
+Spare Tire
 
-HD4FANS 
+CHDBits
 
-Tophos 
+HD-F
 
-Spare Tire 
+AlphaRatio
 
-CHDBits 
+ExoticaZ
 
-HD-F 
-
-AlphaRatio 
-
-dream-torrents 
+dream-torrents
