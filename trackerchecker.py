@@ -6,7 +6,6 @@ if "n Page!','Whoops!');" in urll:
     print("BeyondHD is not open")
 else:
     print(f"BeyondHD is open! {r.url}")
-    open.append(str(BeyondHD))
 red_bits = "https://red-bits.com/register/null"
 r = requests.get(red_bits)
 urll = r.text
@@ -109,7 +108,6 @@ Torrentland = "https://torrentland.li/register/null"
 r = requests.get(Torrentland)
 urll = r.text
 if "Registro libre cerrado" in urll:
-    open.append(f"Torrentland {r.url}")
     print("Torrentland is not open")
 else:
     print(f"Torrentland is open! {r.url}")
