@@ -121,6 +121,8 @@ else:
 DanishBytes = "https://danishbytes.club/register/null"
 r = requests.get(DanishBytes)
 urll = r.text
+elif "Error 522" in urll:
+    print("DanishBytes is down at the moment!")
 if "Du skal have et invitationslink" in urll:
     print("DanishBytes is not open")
 else:
