@@ -121,10 +121,10 @@ else:
 DanishBytes = "https://danishbytes.club/register/null"
 r = requests.get(DanishBytes)
 urll = r.text
-elif "Error 522" in urll:
-    print("DanishBytes is down at the moment!")
 if "Du skal have et invitationslink" in urll:
     print("DanishBytes is not open")
+elif "Error 522" in urll:
+    print("DanishBytes is down at the moment!")
 else:
     print(f"DanishBytes is open! {r.url}")
 TellyTorrent = "https://telly.wtf/register/null"
@@ -253,6 +253,8 @@ r = requests.get(Ourbits)
 urll = r.text
 if "注册当前关闭，只允许邀请注册。如果你" in urll:
     print("Ourbits is not open")
+elif "Error 502" in urll:
+    print("Ourbits is currently down")
 else:
     print(f"Ourbits is open! {r.url}")
 TorrentCCF = "https://et8.org/signup.php"
