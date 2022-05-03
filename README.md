@@ -3,7 +3,7 @@ Just a really simple program that checks if normally private trackers are open t
 Feedback and tracker recommendations are very much appreciated!
 
 Current supported trackers:
-Abnormal
+Abnormal 
 Aither
 AlphaRatio
 AsianCinema
