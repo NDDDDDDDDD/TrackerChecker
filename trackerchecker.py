@@ -322,6 +322,13 @@ if "metimes open registration or applic" in urll:
 else:
     print(f"ExoticaZ is open! {r.url}")
     ExoticaZ = True
+Abnormal = "https://abn.lol/Home/Register"
+r = requests.get(Abnormal)
+urll = r.text
+if "Les inscriptions sont fermées pour le moment." in urll:
+    print("Abnormal is not open")
+else:
+    print(f"Abnormal is open! {r.url}")
 dream_torrents = "http://dream-torrents.com/signup.php"
 r = requests.get(dream_torrents)
 urll = r.text
