@@ -1,7 +1,9 @@
+[Setup tutorial here](https://github.com/NDDDDDDDDD/TrackerChecker/wiki/Setup#tutorial)
+
 Just a really simple program that checks if normally private trackers are open to registration.
 
 Feedback and tracker recommendations are very much appreciated!
-[Setup tutorial here](https://github.com/NDDDDDDDDD/TrackerChecker/wiki/Setup#tutorial)
+
 
 Current supported trackers:
 
