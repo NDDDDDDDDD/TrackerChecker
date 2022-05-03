@@ -227,13 +227,6 @@ if "Hiện tại chúng tôi đã khóa đăng ký tự do" in urll:
     print("ChangTrai is not open")
 else:
     print(f"ChangTrai is open! {r.url}")
-Trackeros = "https://trackeros.tk/register/null"
-r = requests.get(Trackeros)
-urll = r.text
-if "egistro libre cerrado." in urll:
-    print("Trackeros is not open")
-else:
-    print(f"Trackeros is open! {r.url}")
 TorrentSeeds = "https://torrentseeds.org/buyinvite"
 r = requests.get(TorrentSeeds)
 urll = r.text
@@ -267,7 +260,7 @@ else:
 SoulVoice = "https://pt.soulvoice.club/signup.php"
 r = requests.get(SoulVoice)
 urll = r.text
-if "由注册当前关闭，只允许邀请" in urll:
+if "对不起" in urll:
     print("SoulVoice is not open")
 else:
     print(f"SoulVoice is open! {r.url}")
@@ -281,7 +274,7 @@ else:
 HD4FANS = "https://pt.hd4fans.org/signup.php"
 r = requests.get(HD4FANS)
 urll = r.text
-if "自由注册当前关闭，只允许邀" in urll:
+if "对不起" in urll:
     print("HD4FANS is not open")
 else:
     print(f"HD4FANS is open! {r.url}")
