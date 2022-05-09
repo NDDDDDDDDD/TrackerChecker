@@ -197,6 +197,8 @@ r = requests.get(Tapochek)
 urll = r.text
 if "данный момент регистрация разрешена тольк" in urll:
     print("Tapochek is not open")
+elif "а данный момент разрешена регистрация без инвайто" in urll:
+    print("Tapochek is not open")
 else:
     print(f"Tapochek is open! {r.url}")
 TheScenePlace = "https://www.thesceneplace.com/index.php?page=account"
@@ -232,8 +234,17 @@ r = requests.get(TorrentSeeds)
 urll = r.text
 if "https://torrentseeds.org/buyinvite" in urll:
     print("TorrentSeeds is not open")
+elif "pen registration is currently disabled." in urll:
+    print("TorrentSeeds is not open")
 else:
     print(f"TorrentSeeds is open! {r.url}")
+Vizuk = "https://torrent.vizuk.li/?p=signup&pid=16"
+r = requests.get(Vizuk)
+urll = r.text
+if "no aceptamos registros" in urll:
+    print("Vizuk is not open")
+else:
+    print(f"Vizuk is open! {r.url}")
 LemondHD = "https://lemonhd.org/signup.php"
 r = requests.get(LemondHD)
 urll = r.text
