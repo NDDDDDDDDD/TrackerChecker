@@ -162,6 +162,8 @@ r = requests.get(Generation_Free)
 urll = r.text
 if "Open Registration is Closed" in urll:
     print("Generation-Free is not open")
+elif "502 Bad Gateway" in urll:
+    print("Generation-Free is down")
 else:
     print(f"Generation-Free is open! {r.url}")
 HDTime = "https://hdtime.org/signup.php"
