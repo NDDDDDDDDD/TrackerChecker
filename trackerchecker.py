@@ -1,352 +1,288 @@
-import requests
-BeyondHD = "https://beyond-hd.me/register/"
-r = requests.get(BeyondHD)
-urll = r.text
-if "n Page!','Whoops!');" in urll:
-    print("BeyondHD is not open")
-else:
-    print(f"BeyondHD is open! {r.url}")
-red_bits = "https://red-bits.com/register/null"
-r = requests.get(red_bits)
-urll = r.text
-if "ar. Has sido devuelto a la página inicial.'" in urll:
-    print("RED-BITS is not open")
-else:
-    print(f"RED-BITS is open! {r.url}")
-asiancinema = "https://asiancinema.me/register/null"
-r = requests.get(asiancinema)
-urll = r.text
-if "Open Registration is Closed!" in urll:
-    print("AsianCinema is not open")
-else:
-    print(f"AsianCinema is open! {r.url}")
-CinemaZ = "https://cinemaz.to/auth/register"
-r = requests.get(CinemaZ)
-urll = r.text
-if "We sometimes open registration or application. " in urll:
-    print("CinemaZ is not open")
-else:
-    print(f"CinemaZ is open! {r.url}")
-PrivateHD = "https://privatehd.to/auth/register"
-r = requests.get(PrivateHD)
-urll = r.text
-if "PrivateHD is Invite Only" in urll:
-    print("PrivateHD is not open")
-else:
-    print(f"PrivateHD is open! {r.url}")
-eShareNet = "https://esharenet.eu/register/null"
-r = requests.get(eShareNet)
-urll = r.text
-if "pen Registration is Clos" in urll:
-    print("eShareNet is not open")
-else:
-    print(f"eShareNet is open! {r.url}")
-Aither = "https://aither.cc/register/null"
-r = requests.get(Aither)
-urll = r.text
-if "Open Registration is Closed!" in urll:
-    print("Aither is not open")
-else:
-    print(f"Aither is open! {r.url}")
-The_Horror_Charnel = "https://horrorcharnel.org/signup.php"
-r = requests.get(The_Horror_Charnel)
-urll = r.text
-if "The site has been set to invite only by the staff<" in urll:
-    print("The Horror Charnel is not open")
-else:
-    print(f"The Horror Charnel is open! {r.url}")
-TorrentDB = "https://torrentdb.net/register/null"
-r = requests.get(TorrentDB)
-urll = r.text
-if "Registrations are closed" in urll:
-    print("TorrentDB is not open")
-else:
-    print(f"TorrentDB is open! {r.url}")
-AvistaZ = "https://avistaz.to/auth/register"
-r = requests.get(AvistaZ)
-urll = r.text
-if "AvistaZ is Invite Only" in urll:
-    print("AvistaZ is not open")
-else:
-    print(f"AvistaZ is open! {r.url}")
-JPTV_CLUB = "https://jptv.club/register/null"
-r = requests.get(JPTV_CLUB)
-urll = r.text
-if "Open registration is closed" in urll:
-    print("JPTV.CLUB is not open")
-else:
-    print(f"JPTV.CLUB is open! {r.url}")
-RetroFlix = "https://retroflix.club/signup.php"
-r = requests.get(RetroFlix)
-urll = r.text
-if "Open registration is currently disabled" in urll:
-    print("RetroFlix is not open")
-else:
-    print(f"RetroFlix is open! {r.url}")
-BwTorrents = "https://bwtorrents.tv/signup.php"
-r = requests.get(BwTorrents)
-urll = r.text
-if "The current users account limit has been reached." in urll:
-    print("BwTorrents is not open")
-else:
-    print(f"BwTorrents is open! {r.url}")
-hawke_uno = "https://www.hawke.uno/register/null"
-r = requests.get(hawke_uno)
-urll = r.text
-if "en Registration is Closed" in urll:
-    print("hawke-uno is not open")
-else:
-    print(f"hawke-uno is open! {r.url}")
-HD_Olimpo = "https://hd-olimpo.club/register/null"
-r = requests.get(HD_Olimpo)
-urll = r.text
-if "Registro libre cerrado. Se necesit" in urll:
-    print("HD-Olimpo is not open")
-else:
-    print(f"HD-Olimpo is open! {r.url}")
-Torrentland = "https://torrentland.li/register/null"
-r = requests.get(Torrentland)
-urll = r.text
-if "Registro libre cerrado" in urll:
-    print("Torrentland is not open")
-else:
-    print(f"Torrentland is open! {r.url}")
-R3V_WTF = "https://r3vuk.wtf/signup.php"
-r = requests.get(R3V_WTF)
-urll = r.text
-if "Signups are closed presently" in urll:
-    print("R3V WTF! is not open")
-else:
-    print(f"R3V WTF! is open! {r.url}")
-DanishBytes = "https://danishbytes.club/register/null"
-r = requests.get(DanishBytes)
-urll = r.text
-if "Du skal have et invitationslink" in urll:
-    print("DanishBytes is not open")
-elif "Error 522" in urll:
-    print("DanishBytes is down at the moment!")
-else:
-    print(f"DanishBytes is open! {r.url}")
-TellyTorrent = "https://telly.wtf/register/null"
-r = requests.get(TellyTorrent)
-urll = r.text
-if "pen Registration is Closed" in urll:
-    print("TellyTorrent is not open")
-elif "r 503: Service Unavailabl" in urll:
-    print("TellyTorrent is down at the moment")
-else:
-    print(f"TellyTorrent is open! {r.url}")
-ReelFLiX = "https://reelflix.xyz/register/null"
-r = requests.get(ReelFLiX)
-urll = r.text
-if "Open Registration is Closed" in urll:
-    print("ReelFLiX is not open")
-else:
-    print(f"ReelFLiX is open! {r.url}")
-SkipTheTrailers = "https://skipthetrailers.xyz/register/null"
-r = requests.get(SkipTheTrailers)
-urll = r.text
-if "Open Registration is Closed" in urll:
-    print("SkipTheTrailers is not open")
-else:
-    print(f"SkipTheTrailers is open! {r.url}")
-Red_Star_Torrent = "http://rstorrent.org.pl/signup.php"
-r = requests.get(Red_Star_Torrent)
-urll = r.text
-if "Nieaktywne konta s" in urll:
-    print("Red Star Torrent is not open")
-else:
-    print(f"Red Star Torrent is open! {r.url}")
-Generation_Free = "https://generation-free.org/register/null"
-r = requests.get(Generation_Free)
-urll = r.text
-if "Open Registration is Closed" in urll:
-    print("Generation-Free is not open")
-elif "502 Bad Gateway" in urll:
-    print("Generation-Free is down")
-else:
-    print(f"Generation-Free is open! {r.url}")
-HDTime = "https://hdtime.org/signup.php"
-r = requests.get(HDTime)
-urll = r.text
-if "自由注册当前关闭，只允许邀请注册" in urll:
-    print("HDTime is not open")
-else:
-    print(f"HDTime is open! {r.url}")
-MicroBit = "http://microbit.eu/signup.php"
-r = requests.get(MicroBit)
-urll = r.text
-if "Az oldalon jelenleg nincs sz" in urll:
-    print("MicroBit is not open")
-else:
-    print(f"MicroBit is open! {r.url}")
-Peeratiko = "https://peeratiko.org/signup.php"
-r = requests.get(Peeratiko)
-urll = r.text
-if "ignups are closed pres" in urll:
-    print("Peeratiko is not open")
-else:
-    print(f"Peeratiko is open! {r.url}")
-PTerClub = "https://pterclub.com/signup.php"
-r = requests.get(PTerClub)
-urll = r.text
-if "自由注册当前关闭，只允许邀请注册" in urll:
-    print("PTerClub is not open")
-else:
-    print(f"PTerClub is open! {r.url}")
-Tapochek = "https://tapochek.net/profile.php?mode=register&agreed=true"
-r = requests.get(Tapochek)
-urll = r.text
-if "данный момент регистрация разрешена тольк" in urll:
-    print("Tapochek is not open")
-elif "а данный момент разрешена регистрация без инвайто" in urll:
-    print("Tapochek is not open")
-else:
-    print(f"Tapochek is open! {r.url}")
-TheScenePlace = "https://www.thesceneplace.com/index.php?page=account"
-r = requests.get(TheScenePlace)
-urll = r.text
-if "ry, but registrations are closed" in urll:
-    print("TheScenePlace is not open")
-else:
-    print(f"TheScenePlace is open! {r.url}")
-TOrrent_tuRK = "https://torrent-turk.de/?p=signup&pid=16"
-r = requests.get(TOrrent_tuRK)
-urll = r.text
-if "Şu an için üye alımımız kapalıd" in urll:
-    print("TOrrent-tuRK is not open")
-else:
-    print(f"TOrrent-tuRK is open! {r.url}")
-HDMonkey = "https://hdmonkey.org/account-signup.php"
-r = requests.get(HDMonkey)
-urll = r.text
-if "orry this site has disabled user registration" in urll:
-    print("HDMonkey is not open")
-else:
-    print(f"HDMonkey is open! {r.url}")
-ChangTrai = "https://3changtrai.com/signup.php"
-r = requests.get(ChangTrai)
-urll = r.text
-if "Hiện tại chúng tôi đã khóa đăng ký tự do" in urll:
-    print("ChangTrai is not open")
-else:
-    print(f"ChangTrai is open! {r.url}")
-TorrentSeeds = "https://torrentseeds.org/buyinvite"
-r = requests.get(TorrentSeeds)
-urll = r.text
-if "https://torrentseeds.org/buyinvite" in urll:
-    print("TorrentSeeds is not open")
-elif "pen registration is currently disabled." in urll:
-    print("TorrentSeeds is not open")
-else:
-    print(f"TorrentSeeds is open! {r.url}")
-Vizuk = "https://torrent.vizuk.li/?p=signup&pid=16"
-r = requests.get(Vizuk)
-urll = r.text
-if "no aceptamos registros" in urll:
-    print("Vizuk is not open")
-else:
-    print(f"Vizuk is open! {r.url}")
-LemondHD = "https://lemonhd.org/signup.php"
-r = requests.get(LemondHD)
-urll = r.text
-if "注册当前关闭，只允许邀请注册。如果你" in urll:
-    print("LemondHD is not open")
-else:
-    print(f"LemondHD is open! {r.url}")
-Ourbits = "https://ourbits.club/signup.php"
-r = requests.get(Ourbits)
-urll = r.text
-if "注册当前关闭，只允许邀请注册。如果你" in urll:
-    print("Ourbits is not open")
-elif "Error 502" in urll:
-    print("Ourbits is currently down")
-else:
-    print(f"Ourbits is open! {r.url}")
-TorrentCCF = "https://et8.org/signup.php"
-r = requests.get(TorrentCCF)
-urll = r.text
-if "注册当前关闭，只允许邀请注册。如果你" in urll:
-    print("TorrentCCF is not open")
-else:
-    print(f"TorrentCCF is open! {r.url}")
-SoulVoice = "https://pt.soulvoice.club/signup.php"
-r = requests.get(SoulVoice)
-urll = r.text
-if "对不起" in urll:
-    print("SoulVoice is not open")
-else:
-    print(f"SoulVoice is open! {r.url}")
-HDAtmos = "https://hdatmos.club/signup.php"
-r = requests.get(HDAtmos)
-urll = r.text
-if "注册当前关闭，只允许邀请注册。如果你" in urll:
-    print("HDAtmos is not open")
-else:
-    print(f"HDAtmos is open! {r.url}")
-HD4FANS = "https://pt.hd4fans.org/signup.php"
-r = requests.get(HD4FANS)
-urll = r.text
-if "对不起" in urll:
-    print("HD4FANS is not open")
-else:
-    print(f"HD4FANS is open! {r.url}")
-Tophos = "https://tophos.org/signup.php"
-r = requests.get(Tophos)
-urll = r.text
-if "Signups are closed presently" in urll:
-    print("Tophos is not open")
-else:
-    print(f"Tophos is open! {r.url}")
-Spare_Tire = "https://www.beitai.pt/signup.php"
-r = requests.get(Spare_Tire)
-urll = r.text
-if "自由注册当前关闭，只允许邀请注册。如果你" in urll:
-    print("Spare Tire is not open")
-else:
-    print(f"Spare Tire is open! {r.url}")
-CHDBits = "https://chdbits.co/signup.php"
-r = requests.get(CHDBits)
-urll = r.text
-if "自由注册当前关闭，只允许邀请注册" in urll:
-    print("CHDBits is not open")
-else:
-    print(f"CHDBits is open! {r.url}")
-HD_F = "https://hdf.world/register.php"
-r = requests.get(HD_F)
-urll = r.text
-if "ctuellement sur invitation se" in urll:
-    print("HD-F is not open")
-else:
-    print(f"HD-F is open! {r.url}")
+import asyncio
+import aiohttp
 
-AlphaRatio = "https://alpharatio.cc/register.php"
-r = requests.get(AlphaRatio)
-urll = r.text
-if "e site is currently invite" in urll:
-    print("AlphaRatio is not open")
-else:
-    print(f"AlphaRatio is open! {r.url}")
-ExoticaZ = "https://exoticaz.to/register"
-r = requests.get(ExoticaZ)
-urll = r.text
-if "metimes open registration or applic" in urll:
-    print("ExoticaZ is not open")
-else:
-    print(f"ExoticaZ is open! {r.url}")
-    ExoticaZ = True
-Abnormal = "https://abn.lol/Home/Register"
-r = requests.get(Abnormal)
-urll = r.text
-if "Les inscriptions sont fermées pour le moment." in urll:
-    print("Abnormal is not open")
-else:
-    print(f"Abnormal is open! {r.url}")
-dream_torrents = "http://dream-torrents.com/signup.php"
-r = requests.get(dream_torrents)
-urll = r.text
-if "gistration is currently disabl" in urll:
-    print("dream-torrents is not open")
-else:
-    print(f"dream-torrents is open! {r.url}")
-input("Press any button to exit ")
+URLS = [
+    {
+        "name": "BeyondHD",
+        "url": "https://beyond-hd.me/register/",
+        "search_term": "n Page!','Whoops!');",
+    },
+    {
+        "name": "RED-BITS",
+        "url": "https://red-bits.com/register/null",
+        "search_term": "ar. Has sido devuelto a la página inicial.'",
+    },
+    {
+        "name": "AsianCinema",
+        "url": "https://asiancinema.me/register/null",
+        "search_term": "Open Registration is Closed!",
+    },
+    {
+        "name": "CinemaZ",
+        "url": "https://cinemaz.to/auth/register",
+        "search_term": "We sometimes open registration or application. ",
+    },
+    {
+        "name": "PrivateHD",
+        "url": "https://privatehd.to/auth/register",
+        "search_term": "PrivateHD is Invite Only",
+    },
+    {
+        "name": "eShareNet",
+        "url": "https://esharenet.eu/register/null",
+        "search_term": "pen Registration is Clos",
+    },
+    {
+        "name": "Aither",
+        "url": "https://aither.cc/register/null",
+        "search_term": "Open Registration is Closed!",
+    },
+    {
+        "name": "The Horror Charnel",
+        "url": "https://horrorcharnel.org/signup.php",
+        "search_term": "The site has been set to invite only by the staff<",
+    },
+    {
+        "name": "TorrentDB",
+        "url": "https://torrentdb.net/register/null",
+        "search_term": "Registrations are closed",
+    },
+    {
+        "name": "AvistaZ",
+        "url": "https://avistaz.to/auth/register",
+        "search_term": "AvistaZ is Invite Only",
+    },
+    {
+        "name": "JPTV.CLUB",
+        "url": "https://jptv.club/register/null",
+        "search_term": "Open registration is closed",
+    },
+    {
+        "name": "RetroFlix",
+        "url": "https://retroflix.club/signup.php",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "BwTorrents",
+        "url": "https://bwtorrents.tv/signup.php",
+        "search_term": "The current users account limit has been reached.",
+    },
+    {
+        "name": "hawke-uno",
+        "url": "https://www.hawke.uno/register/null",
+        "search_term": "en Registration is Closed",
+    },
+    {
+        "name": "HD-Olimpo",
+        "url": "https://hd-olimpo.club/register/null",
+        "search_term": "Registro libre cerrado. Se necesit",
+    },
+    {
+        "name": "Torrentland",
+        "url": "https://torrentland.li/register/null",
+        "search_term": "Registro libre cerrado",
+    },
+    {
+        "name": "R3V WTF!",
+        "url": "https://r3vuk.wtf/signup.php",
+        "search_term": "Signups are closed presently",
+    },
+    {
+        "name": "DanishBytes",
+        "url": "https://danishbytes.club/register/null",
+        "search_term": "Du skal have et invitationslink",
+    },
+    {
+        "name": "TellyTorrent",
+        "url": "https://telly.wtf/register/null",
+        "search_term": "pen Registration is Closed",
+    },
+    {
+        "name": "ReelFLiX",
+        "url": "https://reelflix.xyz/register/null",
+        "search_term": "Open Registration is Closed",
+    },
+    {
+        "name": "SkipTheTrailers",
+        "url": "https://skipthetrailers.xyz/register/null",
+        "search_term": "Open Registration is Closed",
+    },
+    {
+        "name": "Red Star Torrent",
+        "url": "http://rstorrent.org.pl/signup.php",
+        "search_term": "Nieaktywne konta s",
+    },
+    {
+        "name": "Generation-Free",
+        "url": "https://generation-free.org/register/null",
+        "search_term": "Open Registration is Closed",
+    },
+    {
+        "name": "HDTime",
+        "url": "https://hdtime.org/signup.php",
+        "search_term": "自由注册当前关闭，只允许邀请注册",
+    },
+    {
+        "name": "MicroBit",
+        "url": "http://microbit.eu/signup.php",
+        "search_term": "Az oldalon jelenleg nincs sz",
+    },
+    {
+        "name": "Peeratiko",
+        "url": "https://peeratiko.org/signup.php",
+        "search_term": "ignups are closed pres",
+    },
+    {
+        "name": "PTerClub",
+        "url": "https://pterclub.com/signup.php",
+        "search_term": "自由注册当前关闭，只允许邀请注册",
+    },
+    {
+        "name": "Tapochek",
+        "url": "https://tapochek.net/profile.php?mode=register&agreed=true",
+        "search_term": "данный момент",
+    },
+    {
+        "name": "TheScenePlace",
+        "url": "https://www.thesceneplace.com/index.php?page=account",
+        "search_term": "ry, but registrations are closed",
+    },
+    {
+        "name": "TOrrent-tuRK",
+        "url": "https://torrent-turk.de/?p=signup&pid=16",
+        "search_term": "Şu an için üye alımımız kapalıd",
+    },
+    {
+        "name": "HDMonkey",
+        "url": "https://hdmonkey.org/account-signup.php",
+        "search_term": "orry this site has disabled user registration",
+    },
+    {
+        "name": "ChangTrai",
+        "url": "https://3changtrai.com/signup.php",
+        "search_term": "Hiện tại chúng tôi đã khóa đăng ký tự do",
+    },
+    {
+        "name": "TorrentSeeds",
+        "url": "https://torrentseeds.org/buyinvite",
+        "search_term": "https://torrentseeds.org/buyinvite",
+    },
+    {
+        "name": "Vizuk",
+        "url": "https://torrent.vizuk.li/?p=signup&pid=16",
+        "search_term": "no aceptamos registros",
+    },
+    {
+        "name": "LemondHD",
+        "url": "https://lemonhd.org/signup.php",
+        "search_term": "注册当前关闭，只允许邀请注册。如果你",
+    },
+    {
+        "name": "Ourbits",
+        "url": "https://ourbits.club/signup.php",
+        "search_term": "注册当前关闭，只允许邀请注册。如果你",
+    },
+    {
+        "name": "TorrentCCF",
+        "url": "https://et8.org/signup.php",
+        "search_term": "注册当前关闭，只允许邀请注册。如果你",
+    },
+    {
+        "name": "SoulVoice",
+        "url": "https://pt.soulvoice.club/signup.php",
+        "search_term": "对不起",
+    },
+    {
+        "name": "HDAtmos",
+        "url": "https://hdatmos.club/signup.php",
+        "search_term": "注册当前关闭，只允许邀请注册。如果你",
+    },
+    {
+        "name": "HD4FANS",
+        "url": "https://pt.hd4fans.org/signup.php",
+        "search_term": "对不起",
+    },
+    {
+        "name": "Tophos",
+        "url": "https://tophos.org/signup.php",
+        "search_term": "Signups are closed presently",
+    },
+    {
+        "name": "Spare Tire",
+        "url": "https://www.beitai.pt/signup.php",
+        "search_term": "自由注册当前关闭，只允许邀请注册。如果你",
+    },
+    {
+        "name": "CHDBits",
+        "url": "https://chdbits.co/signup.php",
+        "search_term": "自由注册当前关闭，只允许邀请注册",
+    },
+    {
+        "name": "HD-F",
+        "url": "https://hdf.world/register.php",
+        "search_term": "ctuellement sur invitation se",
+    },
+    {
+        "name": "AlphaRatio",
+        "url": "https://alpharatio.cc/register.php",
+        "search_term": "e site is currently invite",
+    },
+    {
+        "name": "ExoticaZ",
+        "url": "https://exoticaz.to/register",
+        "search_term": "metimes open registration or applic",
+    },
+    {
+        "name": "Abnormal",
+        "url": "https://abn.lol/Home/Register",
+        "search_term": "Les inscriptions sont fermées pour le moment.",
+    },
+    {
+        "name": "dream-torrents",
+        "url": "http://dream-torrents.com/signup.php",
+        "search_term": "gistration is currently disabl",
+    },
+]
+
+conn = aiohttp.TCPConnector(limit_per_host=10, limit=10, ttl_dns_cache=300)
+PARALLEL_REQUESTS = len(URLS)
+
+
+async def gather_with_concurrency(n):
+    timeout = aiohttp.ClientTimeout(total=30)
+    semaphore = asyncio.Semaphore(n)
+    session = aiohttp.ClientSession(connector=conn, timeout=timeout)
+
+    async def get(url, name, search_term):
+        async with semaphore:
+            try:
+                async with session.get(url, ssl=False) as response:
+                    obj = await response.read()
+                    status_code = response.status
+                    if status_code > 500:
+                        print(f"{name} is down!")
+                    if search_term in str(obj):
+                        print(f"{name} is not open")
+                    else:
+                        print(f"{name} is open! {response.url}")
+            except asyncio.exceptions.TimeoutError:
+                print(f"{name} timed out!")
+                pass
+
+    await asyncio.gather(
+        *(
+            get(
+                url.get("url"),
+                url.get("name"),
+                url.get("search_term"),
+            )
+            for url in URLS
+        )
+    )
+    await session.close()
+
+
+if __name__ == "__main__":
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(gather_with_concurrency(PARALLEL_REQUESTS))
+    conn.close()
