@@ -1,0 +1,102 @@
+{
+  "BeyondHD": {
+    "url": "https://beyond-hd.me/register/",
+    "message": "n Page!','Whoops!');"
+  },
+  "redBits": {
+    "url": "https://red-bits.com/register/null",
+    "message": "ar. Has sido devuelto a la página inicial."
+  },
+  "asianCinema": {
+    "url": "https://asiancinema.me/register/null",
+    "message": "Open Registration is Closed!"
+  },
+  "CinemaZ": {
+    "url": "https://cinemaz.to/auth/register",
+    "message": "We sometimes open registration or application."
+  },
+  "PrivateHD": {
+    "url": "https://privatehd.to/auth/register",
+    "message": "PrivateHD is Invite Only"
+  },
+  "eShareNet": {
+    "url": "https://esharenet.eu/register/null",
+    "message": "Open Registration is Closed"
+  },
+  "Aither": {
+    "url": "https://aither.cc/register/null",
+    "message": "Open Registration is Closed"
+  },
+  "TheHorrorCharnel": {
+    "url": "https://horrorcharnel.org/signup.php",
+    "message": "set to invite only by the staff"
+  },
+  "TorrentDB": {
+    "url": "https://torrentdb.net/register/null",
+    "message": "Registrations are closed"
+  },
+  "AvistaZ": {
+    "url": "https://avistaz.to/auth/register",
+    "message": "AvistaZ is Invite Only"
+  },
+  "JPTVCLUB": {
+    "url": "https://jptv.club/register/null",
+    "message": "Open registration is closed"
+  },
+  "RetroFlix": {
+    "url": "https://retroflix.club/signup.php",
+    "message": "Open registration is currently disabled"
+  },
+  "BwTorrents": {
+    "url": "https://bwtorrents.tv/signup.php",
+    "message": "account limit has been reached"
+  },
+  "hawkeUno": {
+    "url": "https://www.hawke.uno/register/null",
+    "message": "Registration is Closed"
+  },
+  "HDOlimpo": {
+    "url": "https://hd-olimpo.club/register/null",
+    "message": "Registro libre cerrado"
+  },
+  "Torrentland": {
+    "url": "https://torrentland.li/register/null",
+    "message": "Registro libre cerrado"
+  },
+  "R3V_WTF": {
+    "url": "https://r3vuk.wtf/signup.php",
+    "message": "Signups are closed presently"
+  },
+  "DanishBytes": {
+    "url": "https://danishbytes.club/register/null",
+    "message": "Du skal have et invitationslink"
+  },
+  "TellyTorrent": {
+    "url": "https://telly.wtf/register/null",
+    "message": "Open Registration is Closed"
+  },
+  "ReelFLiX": {
+    "url": "https://reelflix.xyz/register/null",
+    "message": "Open Registration is Closed"
+  },
+  "SkipTheTrailers": {
+    "url": "https://skipthetrailers.xyz/register/null",
+    "message": "Open Registration is Closed"
+  },
+  "RedStarTorrent": {
+    "url": "http://rstorrent.org.pl/signup.php",
+    "message": "Nieaktywne konta s"
+  },
+  "GenerationFree": {
+    "url": "https://generation-free.org/register/null",
+    "message": "Open Registration is Closed"
+  },
+  "HDTime": {
+    "url": "https://hdtime.org/signup.php",
+    "message": "自由注册当前关闭，只允许邀请注册"
+  },
+  "TOrrenttuRK": {
+    "url": "https://torrent-turk.de/?p=signup&pid=16",
+    "message": "Şu an için üye alımımız kapalı"
+  }
+}
