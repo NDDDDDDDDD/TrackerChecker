@@ -162,6 +162,31 @@ URLS = [
         "url": "http://dream-torrents.com/signup.php",
         "search_term": "gistration is currently disabl",
     },
+    {
+        "name": "BLUTOPIA",
+        "url": "https://blutopia.xyz/register/null",
+        "search_term": "Open Registration is Closed",
+    },
+    {
+        "name": "HD-Torrents",
+        "url": "https://hd-torrents.org/account.php",
+        "search_term": "You need an invite to join this communit",
+    },
+    {
+        "name": "DesiTorrent",
+        "url": "https://desitorrents.tv/register/null",
+        "search_term": "Open Registration is Closed",
+    },
+    {
+        "name": "Bitspyder",
+        "url": "https://bitspyder.net/signup.php",
+        "search_term": "ou need an invite to Join the Communit",
+    },
+#    {
+#        "name": "Milkie",
+#        "url": "https://milkie.cc/auth/signup",
+#        "search_term": " At the moment the site is invite only. If you don't have an invite code but still would like to join,",
+#    },
 ]
 
 conn = aiohttp.TCPConnector(limit_per_host=10, limit=10, ttl_dns_cache=300)
