@@ -7,96 +7,74 @@ Feedback and tracker recommendations are very much appreciated!
 
 Current supported trackers:
 
-Abnormal
-
-Aither
-
-AlphaRatio
-
 AsianCinema
 
 AvistaZ
 
-BeyondHD
-
-BwTorrents
-
-ChangTrai
-
-CHDBits
+RetroFlix
 
 CinemaZ
 
-DanishBytes
+AlphaRatio
 
-dream-torrents
+BeyondHD
 
-eShareNet
-
-ExoticaZ
-
-Generation-Free
-
-hawke-uno
-
-HD4FANS
-
-HDAtmos
-
-HD-F
-
-HDMonkey
-
-HD-Olimpo
-
-HDTime
-
-JPTV.CLUB
-
-LemondHD
-
-MicroBit
-
-Ourbits
-
-Peeratiko
+Aither
 
 PrivateHD
 
-PTerClub
+JPTV.CLUB
 
-R3V WTF!
+hawke-uno
+
+Peeratiko
 
 RED-BITS
 
 Red Star Torrent
 
-ReelFLiX
-
-RetroFlix
-
-SkipTheTrailers
-
-SoulVoice
-
-Spare Tire
-
-Tapochek
-
-TellyTorrent
-
-The Horror Charnel
-
-TheScenePlace
-
-Tophos
-
-TorrentCCF
-
-TorrentDB
+TorrentSeeds
 
 Torrentland
 
-TorrentSeeds
+BwTorrents
 
-TOrrent-tuRK
+Milkie
+
+SkipTheTrailers
+
+BLUTOPIA
+
+TheScenePlace
+
+Bitspyder
+
+ReelFLiX
+
+DanishBytes
+
+eShareNet
+
+HD-Torrents
+
+HD-F
+
+ExoticaZ
+
+dream-torrents
+
+HD-Olimpo
+
+DesiTorrent
+
+TellyTorrent
+
+HDMonkey
+
+Abnormal
+
+Tophos
+
+R3V WTF!
+
+Generation-Free
