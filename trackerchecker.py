@@ -5,17 +5,17 @@ URLS = [
     {
         "name": "BeyondHD",
         "url": "https://beyond-hd.me/register/",
-        "search_term": "n Page!','Whoops!');",
+        "search_term": "You Must Be Invited To",
     },
     {
         "name": "RED-BITS",
         "url": "https://red-bits.com/register/null",
-        "search_term": "ar. Has sido devuelto a la página inicial.'",
+        "search_term": "Has sido devuelto",
     },
     {
         "name": "AsianCinema",
         "url": "https://asiancinema.me/register/null",
-        "search_term": "Open Registration is Closed!",
+        "search_term": "ust have an invitation link to regist",
     },
     {
         "name": "CinemaZ",
@@ -37,16 +37,11 @@ URLS = [
         "url": "https://aither.cc/register/null",
         "search_term": "Open Registration is Closed!",
     },
-    {
-        "name": "The Horror Charnel",
-        "url": "https://horrorcharnel.org/signup.php",
-        "search_term": "The site has been set to invite only by the staff<",
-    },
-    {
-        "name": "TorrentDB",
-        "url": "https://torrentdb.net/register/null",
-        "search_term": "Registrations are closed",
-    },
+    #{
+    #    "name": "The Horror Charnel",
+    #    "url": "https://horrorcharnel.org/signup.php",
+    #    "search_term": "The site has been set to invite only by the staff<",
+    #},
     {
         "name": "AvistaZ",
         "url": "https://avistaz.to/auth/register",
@@ -115,17 +110,7 @@ URLS = [
     {
         "name": "Generation-Free",
         "url": "https://generation-free.org/register/null",
-        "search_term": "Open Registration is Closed",
-    },
-    {
-        "name": "HDTime",
-        "url": "https://hdtime.org/signup.php",
-        "search_term": "自由注册当前关闭，只允许邀请注册",
-    },
-    {
-        "name": "MicroBit",
-        "url": "http://microbit.eu/signup.php",
-        "search_term": "Az oldalon jelenleg nincs sz",
+        "search_term": "https://generation-free.org/login",
     },
     {
         "name": "Peeratiko",
@@ -133,24 +118,9 @@ URLS = [
         "search_term": "ignups are closed pres",
     },
     {
-        "name": "PTerClub",
-        "url": "https://pterclub.com/signup.php",
-        "search_term": "自由注册当前关闭，只允许邀请注册",
-    },
-    {
-        "name": "Tapochek",
-        "url": "https://tapochek.net/profile.php?mode=register&agreed=true",
-        "search_term": "данный момент",
-    },
-    {
         "name": "TheScenePlace",
         "url": "https://www.thesceneplace.com/index.php?page=account",
         "search_term": "ry, but registrations are closed",
-    },
-    {
-        "name": "TOrrent-tuRK",
-        "url": "https://torrent-turk.de/?p=signup&pid=16",
-        "search_term": "Şu an için üye alımımız kapalıd",
     },
     {
         "name": "HDMonkey",
@@ -158,64 +128,14 @@ URLS = [
         "search_term": "orry this site has disabled user registration",
     },
     {
-        "name": "ChangTrai",
-        "url": "https://3changtrai.com/signup.php",
-        "search_term": "Hiện tại chúng tôi đã khóa đăng ký tự do",
-    },
-    {
         "name": "TorrentSeeds",
         "url": "https://torrentseeds.org/buyinvite",
         "search_term": "https://torrentseeds.org/buyinvite",
     },
     {
-        "name": "Vizuk",
-        "url": "https://torrent.vizuk.li/?p=signup&pid=16",
-        "search_term": "no aceptamos registros",
-    },
-    {
-        "name": "LemondHD",
-        "url": "https://lemonhd.org/signup.php",
-        "search_term": "注册当前关闭，只允许邀请注册。如果你",
-    },
-    {
-        "name": "Ourbits",
-        "url": "https://ourbits.club/signup.php",
-        "search_term": "注册当前关闭，只允许邀请注册。如果你",
-    },
-    {
-        "name": "TorrentCCF",
-        "url": "https://et8.org/signup.php",
-        "search_term": "注册当前关闭，只允许邀请注册。如果你",
-    },
-    {
-        "name": "SoulVoice",
-        "url": "https://pt.soulvoice.club/signup.php",
-        "search_term": "对不起",
-    },
-    {
-        "name": "HDAtmos",
-        "url": "https://hdatmos.club/signup.php",
-        "search_term": "注册当前关闭，只允许邀请注册。如果你",
-    },
-    {
-        "name": "HD4FANS",
-        "url": "https://pt.hd4fans.org/signup.php",
-        "search_term": "对不起",
-    },
-    {
         "name": "Tophos",
         "url": "https://tophos.org/signup.php",
         "search_term": "Signups are closed presently",
-    },
-    {
-        "name": "Spare Tire",
-        "url": "https://www.beitai.pt/signup.php",
-        "search_term": "自由注册当前关闭，只允许邀请注册。如果你",
-    },
-    {
-        "name": "CHDBits",
-        "url": "https://chdbits.co/signup.php",
-        "search_term": "自由注册当前关闭，只允许邀请注册",
     },
     {
         "name": "HD-F",
@@ -235,7 +155,7 @@ URLS = [
     {
         "name": "Abnormal",
         "url": "https://abn.lol/Home/Register",
-        "search_term": "Les inscriptions sont fermées pour le moment.",
+        "search_term": "pour le momen",
     },
     {
         "name": "dream-torrents",
