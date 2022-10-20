@@ -8,6 +8,16 @@ URLS = [
         "search_term": "You Must Be Invited To",
     },
     {
+        "name": "3EVILS",
+        "url": "https://3evils.net/register/null",
+        "search_term": "pen Registration is Close",
+    },
+    {
+        "name": "Acervos",
+        "url": "https://acervos.cc/register/null",
+        "search_term": "Os registros es",
+    },
+    {
         "name": "RED-BITS",
         "url": "https://red-bits.com/register/null",
         "search_term": "Has sido devuelto",
@@ -187,6 +197,7 @@ URLS = [
 #        "url": "https://milkie.cc/auth/signup",
 #        "search_term": " At the moment the site is invite only. If you don't have an invite code but still would like to join,",
 #    },
+
 ]
 
 conn = aiohttp.TCPConnector(limit_per_host=10, limit=10, ttl_dns_cache=300)
