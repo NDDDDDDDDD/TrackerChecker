@@ -83,6 +83,21 @@ URLS = [
         "search_term": "Registro libre cerrado",
     },
     {
+        "name": "BrSociety",
+        "url": "https://brsociety.club/register/null",
+        "search_term": "Os registros ",
+    },
+    {
+        "name": "UHDBits",
+        "url": "https://uhdbits.org/register.php",
+        "search_term": "Sorry, the site is currently invite only.",
+    },
+    {
+        "name": "Nebulance",
+        "url": "https://nebulance.io/register.php",
+        "search_term": "Sorry, registration is currently closed.",
+    },
+    {
         "name": "R3V WTF!",
         "url": "https://r3vuk.wtf/signup.php",
         "search_term": "Signups are closed presently",
@@ -183,6 +198,16 @@ URLS = [
         "search_term": "Open Registration is Closed",
     },
     {
+        "name": "Pornbay",
+        "url": "https://pornbay.org/register.php",
+        "search_term": "Sorry, registration is currently closed",
+    },
+    {
+        "name": "Orpheus",
+        "url": "https://orpheus.network/register.php",
+        "search_term": "Sorry, the site is currently invite only.",
+    },
+    {
         "name": "HD-Torrents",
         "url": "https://hd-torrents.org/account.php",
         "search_term": "You need an invite to join this communit",
@@ -191,6 +216,11 @@ URLS = [
         "name": "DesiTorrent",
         "url": "https://desitorrents.tv/register/null",
         "search_term": "Open Registration is Closed",
+    },
+    {
+        "name": "LST",
+        "url": "https://lst.gg/register/null",
+        "search_term": "pen Registration is",
     },
     {
         "name": "Bitspyder",
