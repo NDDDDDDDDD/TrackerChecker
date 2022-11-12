@@ -42,15 +42,20 @@ URLS = [
         "url": "https://aither.cc/register/null",
         "search_term": "Open Registration is Closed!",
     },
-    #{
-    #    "name": "The Horror Charnel",
-    #    "url": "https://horrorcharnel.org/signup.php",
-    #    "search_term": "The site has been set to invite only by the staff<",
-    #},
+    {
+        "name": "The Horror Charnel",
+        "url": "https://horrorcharnel.org/signup.php",
+        "search_term": "The site has been set to invite only by the staff<",
+    },
     {
         "name": "AvistaZ",
         "url": "https://avistaz.to/auth/register",
         "search_term": "AvistaZ is Invite Only",
+    },
+    {
+        "name": "tv vault",
+        "url": "https://tv-vault.me/register.php",
+        "search_term": "Sorry, the site is currently invite only",
     },
     {
         "name": "JPTV.CLUB",
@@ -86,6 +91,11 @@ URLS = [
         "name": "BrSociety",
         "url": "https://brsociety.club/register/null",
         "search_term": "Os registros ",
+    },
+    {
+        "name": "UHDBits",
+        "url": "https://uhdbits.org/register.php",
+        "search_term": "Open registration is currently disabled",
     },
     {
         "name": "Nebulance",
