@@ -21,11 +21,13 @@ AsianCinema
 
 AvistaZ
 
+BLUTOPIA
+
 BeyondHD
 
 Bitspyder
 
-BLUTOPIA
+BrSociety
 
 BwTorrents
 
@@ -35,27 +37,29 @@ DanishBytes
 
 DesiTorrent
 
-dream-torrents
-
-eShareNet
-
 ExoticaZ
 
 Generation-Free
 
-hawke-uno
-
 HD-F
-
-HDMonkey
 
 HD-Olimpo
 
 HD-Torrents
 
+HDMonkey
+
 JPTV.CLUB
 
+LST
+
+Nebulance
+
+Orpheus
+
 Peeratiko
+
+Pornbay
 
 PrivateHD
 
@@ -63,9 +67,9 @@ PuroVicio
 
 R3V WTF!
 
-Red Star Torrent
-
 RED-BITS
+
+Red Star Torrent
 
 ReelFLiX
 
@@ -79,6 +83,14 @@ TheScenePlace
 
 Tophos
 
+TorrentSeeds
+
 Torrentland
 
-TorrentSeeds
+UHDBits
+
+dream-torrents
+
+eShareNet
+
+hawke-uno
