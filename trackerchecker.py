@@ -88,11 +88,6 @@ URLS = [
         "search_term": "Os registros ",
     },
     {
-        "name": "UHDBits",
-        "url": "https://uhdbits.org/register.php",
-        "search_term": "Sorry, the site is currently invite only.",
-    },
-    {
         "name": "Nebulance",
         "url": "https://nebulance.io/register.php",
         "search_term": "Sorry, registration is currently closed.",
