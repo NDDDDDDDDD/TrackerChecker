@@ -8,11 +8,6 @@ URLS = [
         "search_term": "You Must Be Invited To",
     },
     {
-        "name": "3EVILS",
-        "url": "https://3evils.net/register/null",
-        "search_term": "pen Registration is Close",
-    },
-    {
         "name": "Acervos",
         "url": "https://acervos.cc/register/null",
         "search_term": "Os registros es",
@@ -98,6 +93,11 @@ URLS = [
         "search_term": "Du skal have et invitationslink",
     },
     {
+        "name": "Anime Torrents",
+        "url": "https://animetorrents.me/register.php",
+        "search_term": "Registration Closed",
+    },
+    {
         "name": "TellyTorrent",
         "url": "https://telly.wtf/register/null",
         "search_term": "pen Registration is Closed",
@@ -106,6 +106,11 @@ URLS = [
         "name": "ReelFLiX",
         "url": "https://reelflix.xyz/register/null",
         "search_term": "Open Registration is Closed",
+    },
+    {
+        "name": "PuroVicio",
+        "url": "https://purovicio.in/register/null",
+        "search_term": "Open Reg Closed",
     },
     {
         "name": "SkipTheTrailers",
