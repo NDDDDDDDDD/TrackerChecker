@@ -17,15 +17,17 @@ AlphaRatio
 
 Anime Torrents
 
+AnimeBytes
+
 AsianCinema
 
 AvistaZ
 
-BLUTOPIA
-
 BeyondHD
 
 Bitspyder
+
+BLUTOPIA
 
 BrSociety
 
@@ -37,17 +39,27 @@ DanishBytes
 
 DesiTorrent
 
+dream-torrents
+
+eShareNet
+
 ExoticaZ
+
+Gazelle Games
 
 Generation-Free
 
+hawke-uno
+
 HD-F
+
+HDMonkey
 
 HD-Olimpo
 
 HD-Torrents
 
-HDMonkey
+Insane Tracker
 
 JPTV.CLUB
 
@@ -56,6 +68,8 @@ LST
 Nebulance
 
 Orpheus
+
+PassThePopcorn
 
 Peeratiko
 
@@ -67,30 +81,32 @@ PuroVicio
 
 R3V WTF!
 
-RED-BITS
-
 Red Star Torrent
+
+RED-BITS
 
 ReelFLiX
 
 RetroFlix
 
+Secret Cinema
+
 SkipTheTrailers
 
 TellyTorrent
+
+The Horror Charnel
+
+The New Retro
 
 TheScenePlace
 
 Tophos
 
-TorrentSeeds
-
 Torrentland
 
+TorrentSeeds
+
+tv vault
+
 UHDBits
-
-dream-torrents
-
-eShareNet
-
-hawke-uno
