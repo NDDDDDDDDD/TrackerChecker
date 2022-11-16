@@ -68,6 +68,16 @@ URLS = [
         "search_term": "Open registration is currently disabled",
     },
     {
+        "name": "The New Retro",
+        "url": "https://new-retro.eu/signup.php",
+        "search_term": "Anmeldung ist leider geschlossen",
+    },
+    {
+        "name": "Secret Cinema",
+        "url": "https://secret-cinema.pw/register.php",
+        "search_term": "Sorry, the site is currently invite only.",
+    },
+    {
         "name": "BwTorrents",
         "url": "https://bwtorrents.tv/signup.php",
         "search_term": "The current users account limit has been reached.",
@@ -80,7 +90,12 @@ URLS = [
     {
         "name": "HD-Olimpo",
         "url": "https://hd-olimpo.club/register/null",
-        "search_term": "Registro libre cerrado. Se necesit",
+        "search_term": "Registro libre cerrado",
+    },
+    {
+        "name": "PassThePopcorn",
+        "url": "https://passthepopcorn.me/register.php",
+        "search_term": "Sorry, the site is currently invite only.",
     },
     {
         "name": "Torrentland",
@@ -95,12 +110,22 @@ URLS = [
     {
         "name": "UHDBits",
         "url": "https://uhdbits.org/register.php",
-        "search_term": "Open registration is currently disabled",
+        "search_term": "the site is curren",
     },
     {
         "name": "Nebulance",
         "url": "https://nebulance.io/register.php",
         "search_term": "Sorry, registration is currently closed.",
+    },
+    {
+        "name": "AnimeBytes",
+        "url": "https://animebytes.tv/register/apply",
+        "search_term": "Sorry, applications are",
+    },
+    {
+        "name": "Insane Tracker",
+        "url": "https://newinsane.info/signup.php",
+        "search_term": "A regiszt",
     },
     {
         "name": "R3V WTF!",
@@ -136,6 +161,11 @@ URLS = [
         "name": "SkipTheTrailers",
         "url": "https://skipthetrailers.xyz/register/null",
         "search_term": "Open Registration is Closed",
+    },
+    {
+        "name": "Gazelle Games",
+        "url": "https://gazellegames.net/register.php",
+        "search_term": "Registration is currently closed.",
     },
     {
         "name": "Red Star Torrent",
