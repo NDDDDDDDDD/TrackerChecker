@@ -4,6 +4,7 @@ Just a really simple program that checks if normally private trackers are open t
 
 Feedback and tracker recommendations are very much appreciated!
 
+Current "interface"
 ![Current "interface"](https://user-images.githubusercontent.com/102587802/202519585-80404d89-af02-4059-9eda-77d309d02c72.png)
 
 Current supported trackers:
