@@ -51,23 +51,59 @@ Generation-Free
 
 hawke-uno
 
+HDarea
+
+HDAtmos
+
+HDChina
+
+HDChina
+
+HDCity
+
 HD-F
+
+HDFans
+
+HDHome
 
 HDMonkey
 
 HD-Olimpo
 
+HDRoute
+
+HDSky
+
+HDtime
+
 HD-Torrents
+
+HDU
+
+HDU
+
+HDZone
+
+HHanClub
+
+iHDBits
 
 Insane Tracker
 
 JPTV.CLUB
+
+LemonHD
 
 LST
 
 Nebulance
 
 Orpheus
+
+OshenPT
+
+Ourbits
 
 PassThePopcorn
 
@@ -91,9 +127,13 @@ RetroFlix
 
 Secret Cinema
 
+SkipTheCommercials
+
 SkipTheTrailers
 
 TellyTorrent
+
+TFLBits
 
 The Horror Charnel
 
@@ -102,6 +142,10 @@ The New Retro
 TheScenePlace
 
 Tophos
+
+TorrentBytes
+
+TorrentCCF
 
 Torrentland
 
