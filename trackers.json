@@ -1,6 +1,4 @@
-{
-   "trackers": [
-
+[
     {
         "name": "BeyondHD",
         "url": "https://beyond-hd.me/register/",
@@ -365,6 +363,10 @@
         "name": "Bitspyder",
         "url": "https://bitspyder.net/signup.php",
         "search_term": "ou need an invite to Join the Communit"
+    },
+    {
+        "name": "fdsfsd",
+        "url": "fsdfdsfs",
+        "search_term": "fdsfds"
     }
-   ]
-}
+]
