@@ -1,6 +1,8 @@
 import asyncio
 import aiohttp
 
+closed_trackers = []
+open_trackers = []
 URLS = [
     {
         "name": "BeyondHD",
@@ -388,7 +390,7 @@ async def gather_with_concurrency(n):
     timeout = aiohttp.ClientTimeout(total=30)
     semaphore = asyncio.Semaphore(n)
     session = aiohttp.ClientSession(connector=conn, timeout=timeout)
-
+    print("Starting...")
     async def get(url, name, search_term):
         async with semaphore:
             try:
@@ -398,13 +400,12 @@ async def gather_with_concurrency(n):
                     if status_code > 500:
                         print(f"{name} is down!")
                     elif search_term in str(obj):
-                        print(f"{name} is not open")
+                        closed_trackers.append(name)
                     else:
                         print(f"{name} is open! {response.url}")
             except asyncio.exceptions.TimeoutError:
                 print(f"{name} timed out!")
                 pass
-
     await asyncio.gather(
         *(
             get(
@@ -422,3 +423,9 @@ if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     loop.run_until_complete(gather_with_concurrency(PARALLEL_REQUESTS))
     conn.close()
+
+closed_trackers.sort()
+closed_trackers = str(closed_trackers).replace("[","")
+closed_trackers = closed_trackers.replace("'","")
+closed_trackers = closed_trackers.replace("]","")
+print(f"\nClosed trackers: {closed_trackers}")
