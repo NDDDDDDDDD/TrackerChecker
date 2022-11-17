@@ -1,23 +1,22 @@
 import asyncio
 import aiohttp
 import json
+from os import path
 
 closed_trackers = []
 open_trackers = []
 nexus = "Open registration is currently disabled"
 
-f = open('trackers.json')
-data = json.load(f)
-URLS = data['trackers']
-conn = aiohttp.TCPConnector(limit_per_host=100, limit=100, ttl_dns_cache=300)
-PARALLEL_REQUESTS = len(URLS)
 
 
-print("1. TrackerChecker")
-print("2. Add new tracker")
-choice = input("Select mode")
+choice = input("1. TrackerChecker\n2. Add new tracker\nSelect mode: ")
 
 if choice == "1":
+    f = open('trackers.json')
+    data = json.load(f)
+    URLS = data['trackers']
+    conn = aiohttp.TCPConnector(limit_per_host=100, limit=100, ttl_dns_cache=300)
+    PARALLEL_REQUESTS = len(URLS)
     async def gather_with_concurrency(n):
         timeout = aiohttp.ClientTimeout(total=30)
         semaphore = asyncio.Semaphore(n)
@@ -67,4 +66,27 @@ if choice == "1":
     input("Done! Press any button to exit ")
 
 elif choice == "2":
-    print("wait mf")
+    users = [
+        {
+            "name": "",
+            "url": "",
+            "search_term": ""
+        },
+    ]
+
+    trackername = input("Trackers name: ")
+    signup = input("Sign up URL: ")
+    term = input("Search term: ")
+    for user in users:
+        user['name'] = trackername
+        user['url'] = signup
+        user['search_term'] = term
+
+    my_path = 'customtrackers.json'
+    if path.exists(my_path):
+        with open(my_path, 'r') as file:
+            previous_json = json.load(file)
+            users = previous_json + users
+
+    with open(my_path, 'w') as file:
+        json.dump(users, file, indent=4)
