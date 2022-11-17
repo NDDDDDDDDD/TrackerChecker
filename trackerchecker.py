@@ -4,17 +4,13 @@ import json
 from os import path
 
 closed_trackers = []
-open_trackers = []
-nexus = "Open registration is currently disabled"
-
-
 
 choice = input("1. TrackerChecker\n2. Add new tracker\nSelect mode: ")
 
 if choice == "1":
     f = open('trackers.json')
     data = json.load(f)
-    URLS = data['trackers']
+    URLS = data
     conn = aiohttp.TCPConnector(limit_per_host=100, limit=100, ttl_dns_cache=300)
     PARALLEL_REQUESTS = len(URLS)
     async def gather_with_concurrency(n):
@@ -82,7 +78,7 @@ elif choice == "2":
         user['url'] = signup
         user['search_term'] = term
 
-    my_path = 'customtrackers.json'
+    my_path = 'trackers.json'
     if path.exists(my_path):
         with open(my_path, 'r') as file:
             previous_json = json.load(file)
