@@ -315,11 +315,6 @@ URLS = [
         "search_term": "Open registration is currently disabled",
     },
     {
-        "name": "HDU",
-        "url": "https://pt.upxin.net/signup.php?sitelanguage=6",
-        "search_term": "Open registration is currently disabled",
-    },
-    {
         "name": "TFLBits",
         "url": "https://pt.eastgame.org/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled",
