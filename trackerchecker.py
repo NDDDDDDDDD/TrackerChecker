@@ -18,6 +18,26 @@ URLS = [
         "search_term": "Has sido devuelto",
     },
     {
+        "name": "HDtime",
+        "url": "https://hdtime.org/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "HDChina",
+        "url": "https://hdchina.org/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "HDChina",
+        "url": "https://www.beitai.pt/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "HDCity",
+        "url": "https://hdcity.city/signup",
+        "search_term": "Free registration not engaged.",
+    },
+    {
         "name": "AsianCinema",
         "url": "https://asiancinema.me/register/null",
         "search_term": "ust have an invitation link to regist",
@@ -73,6 +93,11 @@ URLS = [
         "search_term": "Anmeldung ist leider geschlossen",
     },
     {
+        "name": "OshenPT",
+        "url": "https://www.oshen.win/signup.php?sitelanguage=6",
+        "search_term": "The current user account limit has been reached",
+    },
+    {
         "name": "Secret Cinema",
         "url": "https://secret-cinema.pw/register.php",
         "search_term": "Sorry, the site is currently invite only.",
@@ -81,6 +106,11 @@ URLS = [
         "name": "BwTorrents",
         "url": "https://bwtorrents.tv/signup.php",
         "search_term": "The current users account limit has been reached.",
+    },
+    {
+        "name": "TorrentBytes",
+        "url": "https://www.torrentbytes.net/signup.php",
+        "search_term": "We're sorry but signups are temporarily closed.",
     },
     {
         "name": "hawke-uno",
@@ -208,6 +238,26 @@ URLS = [
         "search_term": "ctuellement sur invitation se",
     },
     {
+        "name": "HDFans",
+        "url": "https://hdfans.org/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "iHDBits",
+        "url": "https://ihdbits.me/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "HHanClub",
+        "url": "https://hhanclub.top/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "LemonHD",
+        "url": "https://lemonhd.org/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
         "name": "AlphaRatio",
         "url": "https://alpharatio.cc/register.php",
         "search_term": "e site is currently invite",
@@ -248,14 +298,74 @@ URLS = [
         "search_term": "You need an invite to join this communit",
     },
     {
+        "name": "HDSky",
+        "url": "https://hdsky.me/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "TorrentCCF",
+        "url": "https://et8.org/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "HDU",
+        "url": "https://pt.upxin.net/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "HDU",
+        "url": "https://pt.upxin.net/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "TFLBits",
+        "url": "https://pt.eastgame.org/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "HDAtmos",
+        "url": "https://hdatmos.club/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "HDarea",
+        "url": "https://hdarea.co/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "HDZone",
+        "url": "https://hdzone.me/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "Ourbits",
+        "url": "https://ourbits.club/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled",
+    },
+    {
+        "name": "SkipTheCommercials",
+        "url": "https://skipthecommericals.xyz/register/null",
+        "search_term": "Open Registration is Closed",
+    },
+    {
         "name": "DesiTorrent",
         "url": "https://desitorrents.tv/register/null",
         "search_term": "Open Registration is Closed",
     },
     {
+        "name": "HDHome",
+        "url": "https://hdhome.org/signup.php",
+        "search_term": "817230945",
+    },
+    {
         "name": "LST",
         "url": "https://lst.gg/register/null",
         "search_term": "pen Registration is",
+    },
+    {
+        "name": "HDRoute",
+        "url": "http://hdroute.org/register.php",
+        "search_term": "ossibility of re-opening",
     },
     {
         "name": "Bitspyder",
@@ -287,7 +397,7 @@ async def gather_with_concurrency(n):
                     status_code = response.status
                     if status_code > 500:
                         print(f"{name} is down!")
-                    if search_term in str(obj):
+                    elif search_term in str(obj):
                         print(f"{name} is not open")
                     else:
                         print(f"{name} is open! {response.url}")
