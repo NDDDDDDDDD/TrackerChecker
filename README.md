@@ -15,6 +15,7 @@ Acervos
 
 Aither
 
+
 AlphaRatio
 
 Anime Torrents
@@ -36,6 +37,8 @@ BrSociety
 BwTorrents
 
 CinemaZ
+
+DanishBytes
 
 DanishBytes
 
@@ -109,6 +112,10 @@ PassThePopcorn
 
 Peeratiko
 
+pixelated
+
+PIXELHD
+
 Pornbay
 
 PrivateHD
@@ -118,6 +125,8 @@ PuroVicio
 R3V WTF!
 
 Red Star Torrent
+
+Redacted
 
 RED-BITS
 
@@ -131,11 +140,15 @@ SkipTheCommercials
 
 SkipTheTrailers
 
+SpiderTK
+
 TellyTorrent
 
 TFLBits
 
 The Horror Charnel
+
+The Leach Zone
 
 The New Retro
 
@@ -150,6 +163,10 @@ TorrentCCF
 Torrentland
 
 TorrentSeeds
+
+Trance Traffic
+
+TV Chaos UK
 
 tv vault
 
