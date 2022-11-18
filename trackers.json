@@ -65,6 +65,16 @@
         "search_term": "The site has been set to invite only by the staff<"
     },
     {
+        "name": "TV Chaos UK",
+        "url": "https://tvchaosuk.com/register/null",
+        "search_term": "Open Registration is Closed"
+    },
+        {
+        "name": "Trance Traffic",
+        "url": "https://www.trancetraffic.com/signup.php",
+        "search_term": "Sorry, signups are closed"
+    },
+    {
         "name": "AvistaZ",
         "url": "https://avistaz.to/auth/register",
         "search_term": "AvistaZ is Invite Only"
@@ -200,6 +210,11 @@
         "search_term": "Nieaktywne konta s"
     },
     {
+        "name": "Redacted",
+        "url": "https://redacted.ch/register.php",
+        "search_term": "Sorry, the site is currently invite only"
+    },
+    {
         "name": "Generation-Free",
         "url": "https://generation-free.org/register/null",
         "search_term": "Les inscriptions sont"
@@ -233,6 +248,11 @@
         "name": "HD-F",
         "url": "https://hdf.world/register.php",
         "search_term": "ctuellement sur invitation se"
+    },
+    {
+        "name": "The Leach Zone",
+        "url": "https://tlz.digital/signup.php",
+        "search_term": "Signups are closed presently"
     },
     {
         "name": "HDFans",
@@ -278,6 +298,16 @@
         "name": "BLUTOPIA",
         "url": "https://blutopia.xyz/register/null",
         "search_term": "Open Registration is Closed"
+    },
+    {
+        "name": "PIXELHD",
+        "url": "https://pixelhd.me/register.php",
+        "search_term": "Sorry, the site is currently application only."
+    },
+    {
+        "name": "pixelated",
+        "url": "https://pixelados.tv/register/null",
+        "search_term": "Registro libre cerrad"
     },
     {
         "name": "Pornbay",
@@ -364,9 +394,9 @@
         "url": "https://bitspyder.net/signup.php",
         "search_term": "ou need an invite to Join the Communit"
     },
-    {
-        "name": "fdsfsd",
-        "url": "fsdfdsfs",
-        "search_term": "fdsfds"
+        {
+        "name": "SpiderTK",
+        "url": "https://spidertk.top/signup.php",
+        "search_term": "inscription libre est a"
     }
 ]
