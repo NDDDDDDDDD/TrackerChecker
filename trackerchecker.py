@@ -2,14 +2,16 @@ import asyncio
 import aiohttp
 import json
 from os import path
+import requests
 
 closed_trackers = []
 
 choice = input("1. TrackerChecker\n2. Add new tracker\nSelect mode: ")
 
 if choice == "1":
-    f = open('trackers.json')
-    data = json.load(f)
+    r = requests.get("https://raw.githubusercontent.com/NDDDDDDDDD/TrackerChecker/main/trackers.json")
+    lol = r.text
+    data = json.loads(lol)
     URLS = data
     conn = aiohttp.TCPConnector(limit_per_host=100, limit=100, ttl_dns_cache=300)
     PARALLEL_REQUESTS = len(URLS)
@@ -59,6 +61,7 @@ if choice == "1":
     closed_trackers = closed_trackers.replace("'", "")
     closed_trackers = closed_trackers.replace("]", "")
     print(f"\nClosed trackers: {closed_trackers}")
+    aiohttp.ClientSession().close()
     input("Done! Press any button to exit ")
 
 elif choice == "2":
@@ -86,3 +89,4 @@ elif choice == "2":
 
     with open(my_path, 'w') as file:
         json.dump(users, file, indent=4)
+        input("Done! Press any button to exit ")
