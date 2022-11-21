@@ -16,7 +16,7 @@ if choice == "1":
     conn = aiohttp.TCPConnector(limit_per_host=100, limit=100, ttl_dns_cache=300)
     PARALLEL_REQUESTS = len(URLS)
     async def gather_with_concurrency(n):
-        timeout = aiohttp.ClientTimeout(total=30)
+        timeout = aiohttp.ClientTimeout(total=20)
         semaphore = asyncio.Semaphore(n)
         session = aiohttp.ClientSession(connector=conn, timeout=timeout)
         print("Starting...")
@@ -61,7 +61,6 @@ if choice == "1":
     closed_trackers = closed_trackers.replace("'", "")
     closed_trackers = closed_trackers.replace("]", "")
     print(f"\nClosed trackers: {closed_trackers}")
-    aiohttp.ClientSession().close()
     input("Done! Press any button to exit ")
 
 elif choice == "2":
