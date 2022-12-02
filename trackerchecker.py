@@ -3,6 +3,7 @@ import aiohttp
 import json
 from os import path
 import requests
+import socket
 
 closed_trackers = []
 
@@ -27,13 +28,19 @@ if choice == "1":
                     async with session.get(url, ssl=False) as response:
                         obj = await response.read()
                         status_code = response.status
-                        if status_code > 500:
+                        if status_code > 500 or  "needs to review the security of your connection before proceeding" in str(obj):
                             print(f"{name} is down!")
                             print(f"error code: {status_code}")
+                        elif "The backend is currently offline" in str(obj):
+                            print(f"{name} is down!")
+                            print(f"error code: {status_code}")
+                        elif "down for maintenance" in str(obj):
+                            print(f"{name} is down!")
                         elif search_term in str(obj):
                             closed_trackers.append(name)
                         else:
                             print(f"{name} is open! {response.url}")
+                            print(status_code)
                 except asyncio.exceptions.TimeoutError:
                     print(f"{name} timed out!")
                     pass
