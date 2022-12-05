@@ -3,7 +3,6 @@ import aiohttp
 import json
 from os import path
 import requests
-import socket
 down = []
 closed_trackers = []
 
@@ -12,9 +11,8 @@ choice = input("1. TrackerChecker\n2. Add new tracker\nSelect mode: ")
 if choice == "1":
     r = requests.get("https://raw.githubusercontent.com/NDDDDDDDDD/TrackerChecker/main/trackers.json")
     lol = r.text
-    data = json.loads(lol)
-    URLS = data
-    conn = aiohttp.TCPConnector(limit_per_host=100, limit=100, ttl_dns_cache=300)
+    URLS = json.loads(lol)
+    conn = aiohttp.TCPConnector(limit_per_host=100, limit=100)
     PARALLEL_REQUESTS = len(URLS)
     async def gather_with_concurrency(n):
         timeout = aiohttp.ClientTimeout(total=20)
@@ -39,7 +37,7 @@ if choice == "1":
                         else:
                             print(f"{name} is open! {response.url}")
                 except asyncio.exceptions.TimeoutError:
-                    print(f"{name} timed out!")
+                    down.append(name)
                     pass
 
         await asyncio.gather(
