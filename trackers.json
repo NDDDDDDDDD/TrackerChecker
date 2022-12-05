@@ -5,6 +5,11 @@
         "search_term": "You Must Be Invited To"
     },
     {
+        "name": "aro.lol",
+        "url": "https://aro.lol/register.php",
+        "search_term": "Sorry, registration is currently closed."
+    },
+    {
         "name": "Acervos",
         "url": "https://acervos.cc/register/null",
         "search_term": "Os registros es"
