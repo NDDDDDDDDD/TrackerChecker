@@ -15,7 +15,7 @@ if choice == "1":
     conn = aiohttp.TCPConnector(limit_per_host=100, limit=100)
     PARALLEL_REQUESTS = len(URLS)
     async def gather_with_concurrency(n):
-        timeout = aiohttp.ClientTimeout(total=20)
+        timeout = aiohttp.ClientTimeout(total=10)
         semaphore = asyncio.Semaphore(n)
         session = aiohttp.ClientSession(connector=conn, timeout=timeout)
         print("Starting...")
@@ -33,6 +33,8 @@ if choice == "1":
                         elif "down for maintenance" in str(obj):
                             down.append(name)
                         elif search_term in str(obj):
+                            closed_trackers.append(name)
+                        elif "https://redbits.xyz/login" in str(response.url):
                             closed_trackers.append(name)
                         else:
                             print(f"{name} is open! {response.url}")
