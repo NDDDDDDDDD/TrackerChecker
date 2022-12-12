@@ -100,11 +100,6 @@
         "search_term": "Anmeldung ist leider geschlossen"
     },
     {
-        "name": "OshenPT",
-        "url": "https://www.oshen.win/signup.php?sitelanguage=6",
-        "search_term": "The current user account limit has been reached"
-    },
-    {
         "name": "Secret Cinema",
         "url": "https://secret-cinema.pw/register.php",
         "search_term": "Sorry, the site is currently invite only."
