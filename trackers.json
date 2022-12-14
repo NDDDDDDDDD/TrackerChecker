@@ -289,11 +289,11 @@
         "url": "http://dream-torrents.com/signup.php",
         "search_term": "gistration is currently disabl"
     },
-    {
-        "name": "BLUTOPIA",
-        "url": "https://blutopia.xyz/register/null",
-        "search_term": "Open Registration is Closed"
-    },
+#    {
+#        "name": "BLUTOPIA",
+#        "url": "https://blutopia.xyz/register/null",
+#        "search_term": "Open Registration is Closed"
+#    },
     {
         "name": "PIXELHD",
         "url": "https://pixelhd.me/register.php",
