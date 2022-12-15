@@ -120,6 +120,11 @@
         "search_term": "We're sorry but signups are temporarily closed."
     },
     {
+        "name": "pretome",
+        "url": "https://pretome.info/signup.php",
+        "search_term": "Sorry, you're not qualified to become a member of this site"
+    },
+        {
         "name": "hawke-uno",
         "url": "https://www.hawke.uno/register/null",
         "search_term": "en Registration is Closed"
