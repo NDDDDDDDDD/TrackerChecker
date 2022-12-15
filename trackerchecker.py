@@ -36,6 +36,8 @@ if choice == "1":
                             closed_trackers.append(name)
                         elif "https://redbits.xyz/login" in str(response.url):
                             closed_trackers.append(name)
+                        elif "https://pretome.info/index.php?page=home&msg=not_qualified" in str(response.url):
+                            closed_trackers.append(name)
                         else:
                             print(f"{name} is open! {response.url}")
                 except asyncio.exceptions.TimeoutError:
