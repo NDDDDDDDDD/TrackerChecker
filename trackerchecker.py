@@ -34,6 +34,8 @@ if choice == "1":
                             down.append(name)
                         elif search_term in str(obj):
                             closed_trackers.append(name)
+                        elif "404 Not Found" in str(obj):
+                            down.append(name)
                         elif "https://redbits.xyz/login" in str(response.url):
                             closed_trackers.append(name)
                         elif "https://pretome.info/index.php?page=home&msg=not_qualified" in str(response.url):
