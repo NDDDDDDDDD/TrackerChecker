@@ -5,11 +5,6 @@
         "search_term": "You Must Be Invited To"
     },
     {
-        "name": "CCFBits",
-        "url": "https://ccfbits.org/signup.php",
-        "search_term": " CFFBits"
-    },
-    {
         "name": "aro.lol",
         "url": "https://aro.lol/register.php",
         "search_term": "Sorry, registration is currently closed."
@@ -83,11 +78,6 @@
         "name": "AvistaZ",
         "url": "https://avistaz.to/auth/register",
         "search_term": "AvistaZ is Invite Only"
-    },
-    {
-        "name": "BitHUmen",
-        "url": "https://bithumen.be/signup.php",
-        "search_term": "A regisztr"
     },
     {
         "name": "tv vault",
