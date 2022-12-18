@@ -5,6 +5,11 @@
         "search_term": "You Must Be Invited To"
     },
     {
+        "name": "CCFBits",
+        "url": "https://ccfbits.org/signup.php?sitelanguage=6",
+        "search_term": "CCFBits temporarily closes public registration"
+    },
+    {
         "name": "aro.lol",
         "url": "https://aro.lol/register.php",
         "search_term": "Sorry, registration is currently closed."
