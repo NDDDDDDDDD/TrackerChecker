@@ -15,6 +15,11 @@
         "search_term": "Se necesita una invitaci"
     },
     {
+        "name": "ShareIsland",
+        "url": "https://shareisland.org/register/null",
+        "search_term": "Le registrazioni sono chiuse"
+    },
+    {
         "name": "HDtime",
         "url": "https://hdtime.org/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
