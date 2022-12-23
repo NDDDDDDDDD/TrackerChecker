@@ -104,7 +104,7 @@
         "url": "https://secret-cinema.pw/register.php",
         "search_term": "Sorry, the site is currently invite only."
     },
-        {
+    {
         "name": "HDU",
         "url": "https://pt.upxin.net/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
@@ -272,6 +272,16 @@
     {
         "name": "HDFans",
         "url": "https://hdfans.org/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled"
+    },
+    {
+        "name": "PTerClub",
+        "url": "https://hdfans.org/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled"
+    },
+    {
+        "name": "PTtime",
+        "url": "https://www.pttime.org/signup.php",
         "search_term": "Open registration is currently disabled"
     },
     {
