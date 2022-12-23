@@ -180,6 +180,11 @@
         "search_term": "the site is curren"
     },
     {
+        "name": "Red Star Torrent",
+        "url": "http://rstorrent.org.pl/signup.php",
+        "search_term": "Limit userów został wyczerpany"
+    },
+    {
         "name": "Nebulance",
         "url": "https://nebulance.io/register.php",
         "search_term": "Sorry, registration is currently closed."
