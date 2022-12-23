@@ -104,6 +104,11 @@
         "url": "https://secret-cinema.pw/register.php",
         "search_term": "Sorry, the site is currently invite only."
     },
+        {
+        "name": "HDU",
+        "url": "https://pt.upxin.net/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled"
+    },
     {
         "name": "BwTorrents",
         "url": "https://bwtorrents.tv/signup.php",
@@ -128,6 +133,16 @@
         "name": "HD-Olimpo",
         "url": "https://hd-olimpo.club/register/null",
         "search_term": "Registro libre cerrado"
+    },
+    {
+        "name": "bittorrentfiles",
+        "url": "https://bittorrentfiles.me/signup.php",
+        "search_term": "Die Registrierung ist geschlossen"
+    },
+    {
+        "name": "BJ-Share",
+        "url": "https://bj-share.info/register.php",
+        "search_term": "fechados no momento."
     },
     {
         "name": "PassThePopcorn",
@@ -375,9 +390,29 @@
         "search_term": "Open registration is currently disabled"
     },
     {
+        "name": "DiscFan",
+        "url": "https://discfan.net/signup.php?sitelanguage=6",
+        "search_term": "Free registration is currently closed"
+    },
+    {
+        "name": "BTNEXT",
+        "url": "https://tracker.btnext.com/?p=signup&pid=16",
+        "search_term": "ctuar registos mediante convite"
+    },
+    {
         "name": "LST",
         "url": "https://lst.gg/register/null",
         "search_term": "pen Registration is"
+    },
+    {
+        "name": "World of Fantasy",
+        "url": "http://fantastiko.space/?p=signup&pid=16",
+        "search_term": "ups at the moment. As a result you need an Invi"
+    },
+    {
+        "name": "Fantastic Heaven",
+        "url": "https://fantastic-heaven.eu/signup.php",
+        "search_term": "Anmeldung ist leider geschlossen"
     },
     {
         "name": "HDRoute",
