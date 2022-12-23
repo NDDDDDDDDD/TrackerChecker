@@ -85,6 +85,11 @@
         "search_term": "Sorry, the site is currently invite only"
     },
     {
+        "name": "siambit",
+        "url": "https://tv-vault.me/register.php",
+        "search_term": "Sorry, the site is currently invite only"
+    },
+    {
         "name": "BLUTOPIA",
         "url": "https://blutopia.cc/register/null",
         "search_term": "Open Registration is Closed"
@@ -138,6 +143,11 @@
         "name": "HD-Olimpo",
         "url": "https://hd-olimpo.club/register/null",
         "search_term": "Registro libre cerrado"
+    },
+    {
+        "name": "SoulVoice",
+        "url": "https://pt.soulvoice.club/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled"
     },
     {
         "name": "bittorrentfiles",
