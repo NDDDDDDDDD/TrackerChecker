@@ -11,160 +11,180 @@ Current supported trackers:
 
 Abnormal
 
-Acervos
+Aither 
 
-Aither
+AlphaRatio 
 
-AlphaRatio
+Anime Torrents 
 
-Anime Torrents
+AnimeBytes 
 
-AnimeBytes
+aro.lol 
 
-AvistaZ
+AvistaZ 
 
-BeyondHD
+BeyondHD 
 
-Bitspyder
+Bitspyder 
 
-BLUTOPIA
+bittorrentfiles 
 
-BrSociety
+BJ-Share 
 
-BwTorrents
+BLUTOPIA 
 
-CinemaZ
+BrSociety 
 
-DanishBytes
+BTNEXT 
 
-DanishBytes
+BwTorrents 
 
-DesiTorrent
+CinemaZ 
 
-dream-torrents
+DanishBytes 
 
-eShareNet
+DesiTorrent 
 
-ExoticaZ
+DiscFan 
 
-Gazelle Games
+dream-torrents 
 
-Generation-Free
+eShareNet 
 
-hawke-uno
+ExoticaZ 
 
-HDarea
+Fantastic Heaven 
 
-HDAtmos
+Gazelle Games 
 
-HDChina
+Generation-Free 
 
-HDChina
+hawke-uno 
 
-HDCity
+HD-F 
 
-HD-F
+HD-Olimpo 
 
-HDFans
+HD-Torrents 
 
-HDHome
+HDarea 
 
-HDMonkey
+HDAtmos 
 
-HD-Olimpo
+HDChina 
 
-HDRoute
+HDChina 
 
-HDSky
+HDCity 
 
-HDtime
+HDFans 
 
-HD-Torrents
+HDHome 
 
-HDU
+HDMonkey 
 
-HDZone
+HDRoute 
 
-HHanClub
+HDSky 
 
-iHDBits
+HDtime 
 
-Insane Tracker
+HDU 
 
-JPTV.CLUB
+HDZone 
 
-LemonHD
+HHanClub 
 
-LST
+iHDBits 
 
-Nebulance
+Insane Tracker 
 
-Orpheus
+JPTV.CLUB 
 
-OshenPT
+LemonHD 
 
-Ourbits
+LST 
 
-PassThePopcorn
+Nebulance 
 
-Peeratiko
+Orpheus 
 
-pixelated
+Ourbits 
 
-PIXELHD
+PassThePopcorn 
 
-Pornbay
+Peeratiko 
 
-PrivateHD
+pixelated 
 
-PuroVicio
+PIXELHD 
 
-R3V WTF!
+Pornbay 
 
-Red Star Torrent
+pretome 
 
-Redacted
+PrivateHD 
 
-RED-BITS
+PTerClub 
 
-ReelFLiX
+PTtime 
 
-RetroFlix
+PuroVicio 
 
-Secret Cinema
+R3V WTF! 
 
-SkipTheCommercials
+Red Star Torrent 
 
-SkipTheTrailers
+RED-BITS 
 
-SpiderTK
+Redacted 
 
-TellyTorrent
+ReelFLiX 
 
-TFLBits
+RetroFlix 
 
-The Horror Charnel
+Secret Cinema 
 
-The Leach Zone
+ShareIsland 
 
-The New Retro
+siambit 
 
-TheScenePlace
+SkipTheCommercials 
 
-Tophos
+SkipTheTrailers 
 
-TorrentBytes
+SoulVoice 
 
-TorrentCCF
+SpiderTK 
 
-Torrentland
+TellyTorrent 
 
-TorrentSeeds
+TFLBits 
 
-Trance Traffic
+The Horror Charnel 
 
-TV Chaos UK
+The Leach Zone 
 
-tv vault
+The New Retro 
 
-UHDBits
+TheScenePlace 
+
+Tophos 
+
+TorrentBytes 
+
+TorrentCCF 
+
+Torrentland 
+
+TorrentSeeds 
+
+Trance Traffic 
+
+TV Chaos UK 
+
+tv vault 
+
+UHDBits 
+
+World of Fantasy 
