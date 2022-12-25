@@ -260,9 +260,39 @@
         "search_term": "A regiszt"
     },
     {
+        "name": "LibraNet",
+        "url": "https://libranet.org/signup.php",
+        "search_term": "Signups are closed presently"
+    },
+    {
         "name": "R3V WTF!",
         "url": "https://r3vuk.wtf/signup.php",
         "search_term": "Signups are closed presently"
+    },
+    {
+        "name": "libble",
+        "url": "https://libble.me/register.php",
+        "search_term": "Sorry, the site is currently invite only"
+    },
+    {
+        "name": "LinkoManija",
+        "url": "https://www.linkomanija.net/signup.php",
+        "search_term": "Add meg az E-mail címed"
+    },
+    {
+        "name": "My Anonamouse",
+        "url": "https://www.myanonamouse.net/signup.php",
+        "search_term": "The current open registration limit"
+    },
+    {
+        "name": "Locadora",
+        "url": "https://locadora.cc/register/null",
+        "search_term": "egistros Fechados"
+    },
+    {
+        "name": "nCore",
+        "url": "https://ncore.pro/register.php",
+        "search_term": "Nincs szabad"
     },
     {
         "name": "DanishBytes",
@@ -468,6 +498,11 @@
         "name": "TorrentCCF",
         "url": "https://et8.org/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
+    },
+    {
+        "name": "OpenCD",
+        "url": "https://open.cd/signup.php?sitelanguage=6",
+        "search_term": "pen registration is currently disabled"
     },
     {
         "name": "HDU",
