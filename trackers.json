@@ -10,6 +10,16 @@
         "search_term": "Sorry, registration is currently closed."
     },
     {
+        "name": "zelka",
+        "url": "https://zelka.org/signup.php",
+        "search_term": "please check back again later"
+    },
+    {
+        "name": "xthor",
+        "url": "https://xthor.tk/signup.php",
+        "search_term": "attention aux arnaqueurs"
+    },
+    {
         "name": "RED-BITS",
         "url": "https://red-bits.com/register/null",
         "search_term": "Se necesita una invitaci"
@@ -50,9 +60,24 @@
         "search_term": "Free registration not engaged."
     },
     {
+        "name": "x-ite me",
+        "url": "https://x-ite.me/account-signup.php",
+        "search_term": "The open signup member limit has been reached"
+    },
+    {
         "name": "CinemaZ",
         "url": "https://cinemaz.to/auth/register",
         "search_term": "We sometimes open registration or application. "
+    },
+    {
+        "name": "TvRoad",
+        "url": "https://tvroad.info/TvRoad/Inscription",
+        "search_term": "Passible De Bannissement"
+    },
+    {
+        "name": "ToTheGlory",
+        "url": "https://totheglory.im/signup.php",
+        "search_term": "You need an invite to join our community"
     },
     {
         "name": "PrivateHD",
@@ -144,10 +169,20 @@
         "url": "https://pretome.info/signup.php",
         "search_term": "qualified to become a member of this site"
     },
-        {
+    {
+        "name": "TOrrent-tuRK",
+        "url": "https://torrent-turk.de/?p=signup&pid=16",
+        "search_term": "davetiye kodu yada VİP"
+    },
+    {
         "name": "hawke-uno",
         "url": "https://www.hawke.uno/register/null",
         "search_term": "en Registration is Closed"
+    },
+    {
+        "name": "TorrentBD",
+        "url": "https://www.torrentbd.net/account-signup.php",
+        "search_term": "ou will need a referral from an existing member to sign up"
     },
     {
         "name": "HD-Olimpo",
@@ -297,7 +332,37 @@
     {
         "name": "The Leach Zone",
         "url": "https://tlz.digital/signup.php",
+        "search_term": "Offene Registrierung ist deaktiviert"
+    },
+    {
+        "name": "The Old School",
+        "url": "https://theoldschool.cc/register/null",
+        "search_term": "ption libre est fer"
+    },
+    {
+        "name": "Tekno3D",
+        "url": "https://tracker.tekno3d.com/signup.php",
+        "search_term": "ignups are closed presently"
+    },
+    {
+        "name": "The Shinning",
+        "url": "https://theshinning.me/register",
         "search_term": "Signups are closed presently"
+    },
+    {
+        "name": "TheValut",
+        "url": "https://thevault.click/signup.php",
+        "search_term": "are a private site and require an invite to join"
+    },
+    {
+        "name": "TheOccult",
+        "url": "https://theoccult.click/signup.php",
+        "search_term": "are a private site and require an invite to join"
+    },
+    {
+        "name": "ThePlace",
+        "url": "https://theplace.click/signup.php",
+        "search_term": "are a private site and require an invite to join"
     },
     {
         "name": "HDFans",
