@@ -225,9 +225,34 @@
         "search_term": "Die Registrierung ist geschlossen"
     },
     {
+        "name": "GFXPeers",
+        "url": "https://gfxpeers.net/register.php",
+        "search_term": "ign UP is currently CLOSED"
+    },
+    {
         "name": "BJ-Share",
         "url": "https://bj-share.info/register.php",
         "search_term": "fechados no momento."
+    },
+    {
+        "name": "FinVip",
+        "url": "https://finvip.org/index.php?page=signup",
+        "search_term": "Tarvitset kutsun liitty"
+    },
+    {
+        "name": "Femdomcult",
+        "url": "https://femdomcult.org/register.php",
+        "search_term": "registration is currently closed"
+    },
+    {
+        "name": "greek-team",
+        "url": "https://www.greek-team.cc/signup.php",
+        "search_term": "Registrations are closed and only with invite possible"
+    },
+    {
+        "name": "GigaTorrents",
+        "url": "https://gigatorrents.ws/signup.php",
+        "search_term": "A jelenlegi felhasználólimite"
     },
     {
         "name": "PassThePopcorn",
@@ -238,6 +263,11 @@
         "name": "Torrentland",
         "url": "https://torrentland.li/register/null",
         "search_term": "Registro libre cerrado"
+    },
+    {
+        "name": "htpt",
+        "url": "https://www.htpt.cc/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled"
     },
     {
         "name": "BrSociety",
@@ -258,6 +288,11 @@
         "name": "Nebulance",
         "url": "https://nebulance.io/register.php",
         "search_term": "Sorry, registration is currently closed."
+    },
+    {
+        "name": "JME-REUNIT3D",
+        "url": "https://animebytes.tv/register/apply",
+        "search_term": "Offene Registrierung ist geschlosse"
     },
     {
         "name": "AnimeBytes",
@@ -530,6 +565,16 @@
         "search_term": "Open registration is currently disabled"
     },
     {
+        "name": "HD4FANS",
+        "url": "https://pt.hd4fans.org/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled"
+    },
+    {
+        "name": "HD-UNiT3D",
+        "url": "https://hd-united.vn/login",
+        "search_term": "Open Registration is Closed"
+    },
+    {
         "name": "HDarea",
         "url": "https://hdarea.co/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
@@ -573,6 +618,11 @@
         "name": "LST",
         "url": "https://lst.gg/register/null",
         "search_term": "pen Registration is"
+    },
+    {
+        "name": "fano",
+        "url": "https://www.fano.in/signup.php",
+        "search_term": "Inactive accounts are pruned all the time"
     },
     {
         "name": "World of Fantasy",
