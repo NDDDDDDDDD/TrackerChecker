@@ -55,6 +55,21 @@
         "search_term": "Open registration is currently disabled"
     },
     {
+        "name": "tapocheck",
+        "url": "https://tapochek.net/profile.php?mode=register&agreed=true",
+        "search_term": "Если вы не введете код инвайта, вы не сможете зарегистрироваться."
+    }, 
+    {
+        "name": "sugiomusic",
+        "url": "https://sugoimusic.me/register.php",
+        "search_term": "he site is currently invite only"
+    },
+    {
+        "name": "SpeedCD",
+        "url": "https://speed.cd/checkpoint/signup",
+        "search_term": "urrently our Sign Up is closed"
+    },
+    {
         "name": "HDCity",
         "url": "https://hdcity.city/signup",
         "search_term": "Free registration not engaged."
@@ -128,6 +143,16 @@
         "name": "BLUTOPIA",
         "url": "https://blutopia.cc/register/null",
         "search_term": "Open Registration is Closed"
+    },
+    {
+        "name": "SceneRush",
+        "url": "https://www.scene-rush.pt/signup.php",
+        "search_term": "Para te registares no site tens que ser convidado "
+    },
+    {
+        "name": "rptorrents",
+        "url": "https://rptorrents.com/account-signup.php",
+        "search_term": "y this site has disabled user r"
     },
     {
         "name": "JPTV.CLUB",
@@ -385,6 +410,26 @@
         "search_term": "Open registration is currently disabled"
     },
     {
+        "name": "ProAudioTorrents",
+        "url": "https://proaudiotorrents.org/signup.php",
+        "search_term": "Open invitation day at Pro Audio Torrents will be closed until further notice"
+    },
+    {
+        "name": "PolishSource",
+        "url": "https://polishsource.cz/cmon.php",
+        "search_term": "Rejestracja wyłączona"
+    },
+    {
+        "name": "portugas",
+        "url": "https://portugas.org/register/null",
+        "search_term": "er redirecionado para a pá"
+    },
+    {
+        "name": "Peers.FM",
+        "url": "https://peers.fm/signup.php",
+        "search_term": "Для того что бы стать пользователем трекера вам нужно приглашение от уже зарегистриров"
+    },
+    {
         "name": "HHanClub",
         "url": "https://hhanclub.top/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
@@ -393,6 +438,11 @@
         "name": "LemonHD",
         "url": "https://lemonhd.org/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
+    },
+    {
+        "name": "PuntoTorrent",
+        "url": "https://xbt.puntotorrent.com/index.php?page=signup",
+        "search_term": "n para poder registrar un"
     },
     {
         "name": "AlphaRatio",
