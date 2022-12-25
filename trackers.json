@@ -55,11 +55,6 @@
         "search_term": "Open registration is currently disabled"
     },
     {
-        "name": "tapocheck",
-        "url": "https://tapochek.net/profile.php?mode=register&agreed=true",
-        "search_term": "Если вы не введете код инвайта, вы не сможете зарегистрироваться."
-    }, 
-    {
         "name": "sugiomusic",
         "url": "https://sugoimusic.me/register.php",
         "search_term": "he site is currently invite only"
