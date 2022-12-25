@@ -11,180 +11,232 @@ Current supported trackers:
 
 Abnormal
 
-Aither 
+Aither
 
-AlphaRatio 
+AlphaRatio
 
-Anime Torrents 
+Anime Torrents
 
-AnimeBytes 
+AnimeBytes
 
-aro.lol 
+aro.lol
 
-AvistaZ 
+AvistaZ
 
-BeyondHD 
+BeyondHD
 
-Bitspyder 
+Bitspyder
 
-bittorrentfiles 
+bittorrentfiles
 
-BJ-Share 
+BJ-Share
 
-BLUTOPIA 
+BLUTOPIA
 
-BrSociety 
+BrSociety
 
-BTNEXT 
+BTNEXT
 
-BwTorrents 
+BwTorrents
 
-CinemaZ 
+CinemaZ
 
-DanishBytes 
+DanishBytes
 
-DesiTorrent 
+DesiTorrent
 
-DiscFan 
+DiscFan
 
-dream-torrents 
+dream-torrents
 
-eShareNet 
+eShareNet
 
-ExoticaZ 
+ExoticaZ
 
-Fantastic Heaven 
+Fantastic Heaven
 
-Gazelle Games 
+Gazelle Games
 
-Generation-Free 
+Generation-Free
 
-hawke-uno 
+hawke-uno
 
-HD-F 
+HD-F
 
-HD-Olimpo 
+HD-Olimpo
 
-HD-Torrents 
+HD-Torrents
 
-HDarea 
+HDarea
 
-HDAtmos 
+HDAtmos
 
-HDChina 
+HDChina
 
-HDChina 
+HDCity
 
-HDCity 
+HDFans
 
-HDFans 
+HDHome
 
-HDHome 
+HDMonkey
 
-HDMonkey 
+HDRoute
 
-HDRoute 
+HDSky
 
-HDSky 
+HDtime
 
-HDtime 
+HDU
 
-HDU 
+HDZone
 
-HDZone 
+HHanClub
 
-HHanClub 
+iHDBits
 
-iHDBits 
+Indietorrents
 
-Insane Tracker 
+Insane Tracker
 
-JPTV.CLUB 
+JPTV.CLUB
 
-LemonHD 
+LearnBits
 
-LST 
+LearnFlakes
 
-Nebulance 
+LemonHD
 
-Orpheus 
+libble
 
-Ourbits 
+LibraNet
 
-PassThePopcorn 
+LinkoManija
 
-Peeratiko 
+Locadora
 
-pixelated 
+LST
 
-PIXELHD 
+MaDs Revolution
 
-Pornbay 
+My Anonamouse
 
-pretome 
+nCore
 
-PrivateHD 
+Nebulance
 
-PTerClub 
+OpenCD
 
-PTtime 
+Orpheus
 
-PuroVicio 
+Ourbits
 
-R3V WTF! 
+PassThePopcorn
 
-Red Star Torrent 
+Peeratiko
 
-RED-BITS 
+pixelated
 
-Redacted 
+PIXELHD
 
-ReelFLiX 
+Pornbay
 
-RetroFlix 
+pretome
 
-Secret Cinema 
+PrivateHD
 
-ShareIsland 
+ProAudioTorrents
 
-siambit 
+PTerClub
 
-SkipTheCommercials 
+PTtime
 
-SkipTheTrailers 
+PuntoTorrent
 
-SoulVoice 
+PuroVicio
 
-SpiderTK 
+R3V WTF!
 
-TellyTorrent 
+Red Star Torrent
 
-TFLBits 
+RED-BITS
 
-The Horror Charnel 
+Redacted
 
-The Leach Zone 
+ReelFLiX
 
-The New Retro 
+rptorrents
 
-TheScenePlace 
+SceneRush
 
-Tophos 
+Secret Cinema
 
-TorrentBytes 
+ShareIsland
 
-TorrentCCF 
+siambit
 
-Torrentland 
+SkipTheCommercials
 
-TorrentSeeds 
+SkipTheTrailers
 
-Trance Traffic 
+SoulVoice
 
-TV Chaos UK 
+SpeedCD
 
-tv vault 
+SpiderTK
 
-UHDBits 
+sugiomusic
 
-World of Fantasy 
+Tekno3D
+
+TellyTorrent
+
+TFLBits
+
+The Horror Charnel
+
+The New Retro
+
+The Old School
+
+The Shinning
+
+TheOccult
+
+ThePlace
+
+TheScenePlace
+
+TheValut
+
+Tophos
+
+TorrentBD
+
+TorrentBytes
+
+TorrentCCF
+
+Torrentland
+
+TorrentSeeds
+
+ToTheGlory
+
+Trance Traffic
+
+TV Chaos UK
+
+tv vault
+
+TvRoad
+
+UHDBits
+
+World of Fantasy
+
+x-ite me
+
+xthor
+
+zelka
