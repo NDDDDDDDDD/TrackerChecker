@@ -416,8 +416,8 @@
     },
     {
         "name": "PolishSource",
-        "url": "https://polishsource.cz/cmon.php",
-        "search_term": "Rejestracja wyłączona"
+        "url": "https://polishsource.cz/cmon.php?ekszyn=englisz",
+        "search_term": "Registration is closed"
     },
     {
         "name": "portugas",
