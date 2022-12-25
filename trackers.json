@@ -180,6 +180,11 @@
         "search_term": "The current users account limit has been reached."
     },
     {
+        "name": "LearnFlakes",
+        "url": "https://learnflakes.net/?p=signup&pid=16",
+        "search_term": "do not accept anonymous sign-ups at the moment"
+    },
+    {
         "name": "TorrentBytes",
         "url": "https://www.torrentbytes.net/signup.php",
         "search_term": "We're sorry but signups are temporarily closed."
