@@ -76,7 +76,7 @@ if choice == "1":
     down = down.replace("'", "")
     down = down.replace("]", "")
     print(f"Currently down: {down}")
-    input("Done! Press any button to exit ")
+    input("Done! Press enter to exit ")
 
 elif choice == "2":
     users = [
@@ -103,4 +103,4 @@ elif choice == "2":
 
     with open(my_path, 'w') as file:
         json.dump(users, file, indent=4)
-        input("Done! Press any button to exit ")
+        input("Done! Press enter to exit ")
