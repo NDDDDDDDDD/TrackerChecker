@@ -40,14 +40,29 @@
         "search_term": "Le registrazioni sono chiuse"
     },
     {
+        "name": "cinemamovies",
+        "url": "https://cinemamovies.pl/signup.php",
+        "search_term": "we jest po otrzymaniu zaproszenia"
+    },
+    {
         "name": "HDtime",
         "url": "https://hdtime.org/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
     },
     {
+        "name": "CGPeers",
+        "url": "https://cgpeers.to/register.php",
+        "search_term": "Sorry, the site is currently invite only"
+    },
+    {
         "name": "HDChina",
         "url": "https://hdchina.org/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
+    },
+    {
+        "name": "BroadCastTheNet",
+        "url": "https://broadcasthe.net/register.php",
+        "search_term": "Sorry, the site is currently invite only"
     },
     {
         "name": "HDChina",
@@ -168,6 +183,11 @@
         "name": "The New Retro",
         "url": "https://new-retro.eu/signup.php",
         "search_term": "Anmeldung ist leider geschlossen"
+    },
+    {
+        "name": "cinemageddon",
+        "url": "https://cinemageddon.net/signup.php",
+        "search_term": "You will need to obtain an invite from a registered user"
     },
     {
         "name": "Secret Cinema",
