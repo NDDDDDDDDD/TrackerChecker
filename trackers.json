@@ -210,11 +210,6 @@
         "search_term": "do not accept anonymous sign-ups at the moment"
     },
     {
-        "name": "TorrentBytes",
-        "url": "https://www.torrentbytes.net/signup.php",
-        "search_term": "We're sorry but signups are temporarily closed."
-    },
-    {
         "name": "pretome",
         "url": "https://pretome.info/signup.php",
         "search_term": "qualified to become a member of this site"
