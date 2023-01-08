@@ -3,7 +3,7 @@ import aiohttp
 import json
 from os import path
 import requests
-error_msg = ["needs to review the security of your connection before proceeding", "The server load is very high at the moment", "404 Not Found", "down for maintenance", "The backend is currently offline"]
+error_msg = ["needs to review the security of your connection before proceeding", "Retrying, please wait", "404 Not Found", "down for maintenance", "The backend is currently offline","Something was wrong with your request"]
 down = []
 closed_trackers = []
 
@@ -17,7 +17,7 @@ if choice == "1":
     conn = aiohttp.TCPConnector(limit_per_host=100, limit=100)
     PARALLEL_REQUESTS = len(URLS)
     async def gather_with_concurrency(n):
-        timeout = aiohttp.ClientTimeout(total=10)
+        timeout = aiohttp.ClientTimeout(total=30)
         semaphore = asyncio.Semaphore(n)
         session = aiohttp.ClientSession(connector=conn, timeout=timeout)
         print("Starting...")
