@@ -45,11 +45,6 @@
         "search_term": "Open registration is currently disabled"
     },
     {
-        "name": "CGPeers",
-        "url": "https://cgpeers.to/register.php",
-        "search_term": "Sorry, the site is currently invite only"
-    },
-    {
         "name": "HDChina",
         "url": "https://hdchina.org/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
