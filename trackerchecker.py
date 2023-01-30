@@ -3,7 +3,7 @@ import aiohttp
 import json
 from os import path
 import requests
-error_msg = ["needs to review the security of your connection before proceeding", "Retrying, please wait", "404 Not Found", "down for maintenance", "The backend is currently offline","Something was wrong with your request"]
+error_msg = ["needs to review the security of your connection before proceeding", "Nebulance is temporarily offline for planned maintenance. Leave your torrents seeding in your client and we will be back shortly.", "Retrying, please wait", "404 Not Found", "down for maintenance", "The backend is currently offline","and the server is refusing to fulfill it"]
 down = []
 closed_trackers = []
 
