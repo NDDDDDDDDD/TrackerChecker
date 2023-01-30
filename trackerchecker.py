@@ -42,7 +42,7 @@ if choice == "1":
                             closed_trackers.append(name)
                         else:
                             print(f"{name} is open! {response.url}")
-                except asyncio.exceptions.TimeoutError:
+                except (asyncio.exceptions.TimeoutError, aiohttp.client_exceptions.ServerDisconnectedError, aiohttp.client_exceptions.ClientConnectorError) as error:
                     down.append(name)
                     pass
 
