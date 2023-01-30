@@ -15,6 +15,27 @@
         "search_term": "please check back again later"
     },
     {
+        "name": "TheScenePlace",
+        "url": "https://www.thesceneplace.com/index.php?page=account",
+        "search_term": "ry, but registrations are closed"
+    },
+    {
+        "name": "HD-Olimpo",
+        "url": "https://hd-olimpo.club/register/null",
+        "search_term": "Registro libre cerrado"
+    },
+    {
+        "name": "CGPeers",
+        "url": "https://cgpeers.to/register.php",
+        "search_term": "Sorry, the site is currently invite only"
+    },
+    {
+        "name": "R3V WTF!",
+        "url": "https://r3vuk.wtf/signup.php",
+        "search_term": "Signups are closed presently"
+    },
+    
+    {
         "name": "xthor",
         "url": "https://xthor.tk/signup.php",
         "search_term": "attention aux arnaqueurs"
