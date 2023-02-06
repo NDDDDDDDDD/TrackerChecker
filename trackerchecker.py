@@ -9,7 +9,6 @@ closed_trackers = []
 
 choice = input("1. TrackerChecker\n2. Add new tracker\nSelect mode: ")
 
-
 if choice == "1":
     r = requests.get("https://raw.githubusercontent.com/NDDDDDDDDD/TrackerChecker/main/trackers.json")
     trackers = r.text
