@@ -451,11 +451,6 @@
         "search_term": "are a private site and require an invite to join"
     },
     {
-        "name": "HDFans",
-        "url": "https://hdfans.org/signup.php?sitelanguage=6",
-        "search_term": "Open registration is currently disabled"
-    },
-    {
         "name": "PTerClub",
         "url": "https://pterclub.com/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
@@ -620,9 +615,4 @@
         "url": "https://bitspyder.net/signup.php",
         "search_term": "ou need an invite to Join the Communit"
     },
-        {
-        "name": "SpiderTK",
-        "url": "https://spidertk.top/signup.php",
-        "search_term": "inscription libre est a"
-    }
 ]
