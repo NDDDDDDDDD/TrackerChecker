@@ -466,24 +466,9 @@
         "search_term": "Open registration is currently disabled"
     },
     {
-        "name": "iHDBits",
-        "url": "https://ihdbits.me/signup.php?sitelanguage=6",
-        "search_term": "Open registration is currently disabled"
-    },
-    {
         "name": "ProAudioTorrents",
         "url": "https://proaudiotorrents.org/signup.php",
         "search_term": "Open invitation day at Pro Audio Torrents will be closed until further notice"
-    },
-    {
-        "name": "HHanClub",
-        "url": "https://hhanclub.top/signup.php?sitelanguage=6",
-        "search_term": "Open registration is currently disabled"
-    },
-    {
-        "name": "LemonHD",
-        "url": "https://lemonhd.org/signup.php?sitelanguage=6",
-        "search_term": "Open registration is currently disabled"
     },
     {
         "name": "PuntoTorrent",
@@ -516,11 +501,6 @@
         "search_term": "Sorry, the site is currently application only."
     },
     {
-        "name": "pixelated",
-        "url": "https://pixelados.tv/register/null",
-        "search_term": "Registro libre cerrad"
-    },
-    {
         "name": "Pornbay",
         "url": "https://pornbay.org/register.php",
         "search_term": "Sorry, registration is currently closed"
@@ -544,11 +524,6 @@
         "name": "TorrentCCF",
         "url": "https://et8.org/signup.php?sitelanguage=6",
         "search_term": "Open registration is currently disabled"
-    },
-    {
-        "name": "OpenCD",
-        "url": "https://open.cd/signup.php?sitelanguage=6",
-        "search_term": "pen registration is currently disabled"
     },
     {
         "name": "HDU",
