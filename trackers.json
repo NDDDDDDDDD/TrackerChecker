@@ -218,7 +218,7 @@
     {
         "name": "LearnFlakes",
         "url": "https://learnflakes.net/?p=signup&pid=16",
-        "search_term": "registration has been disabled by the administrator"
+        "search_term": "We are sorry to inform you that we do not accept anonymous sign-ups at the moment. As a result you need an Invite Code to sign-up."
     },
     {
         "name": "pretome",
@@ -234,11 +234,6 @@
         "name": "TorrentBD",
         "url": "https://www.torrentbd.net/account-signup.php",
         "search_term": "ou will need a referral from an existing member to sign up"
-    },
-    {
-        "name": "SoulVoice",
-        "url": "https://pt.soulvoice.club/signup.php?sitelanguage=6",
-        "search_term": "Open registration is currently disabled"
     },
     {
         "name": "bittorrentfiles",
@@ -584,11 +579,6 @@
         "name": "fano",
         "url": "https://www.fano.in/signup.php",
         "search_term": "Inactive accounts are pruned all the time"
-    },
-    {
-        "name": "World of Fantasy",
-        "url": "http://fantastiko.space/?p=signup&pid=16",
-        "search_term": "ups at the moment. As a result you need an Invi"
     },
     {
         "name": "Fantastic Heaven",
