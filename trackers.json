@@ -34,6 +34,11 @@
         "url": "https://r3vuk.wtf/signup.php",
         "search_term": "Signups are closed presently"
     },
+    {
+        "name": "HD DOLBY",
+        "url": "https://www.hddolby.com/signup.php?sitelanguage=6",
+        "search_term": "The current user account limit has been reached"
+    },
     
     {
         "name": "xthor",
@@ -579,6 +584,11 @@
         "name": "fano",
         "url": "https://www.fano.in/signup.php",
         "search_term": "Inactive accounts are pruned all the time"
+    },
+    {
+        "name": "PTer Club",
+        "url": "https://pterclub.com/signup.php?sitelanguage=6",
+        "search_term": "Open registration is currently disabled."
     },
     {
         "name": "Fantastic Heaven",
