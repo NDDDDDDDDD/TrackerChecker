@@ -1,5 +1,4 @@
 asyncio
 aiohttp
 json
-os 
 requests
