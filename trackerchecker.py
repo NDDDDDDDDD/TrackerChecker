@@ -28,7 +28,7 @@ async def gather_with_concurrency(n):
                             down.append(name)
                     if response.status >= 500:
                         down.append(name)
-                    if search_term in str(obj):
+                    elif search_term in str(obj):
                         closed_trackers.append(name)
                     elif "https://redbits.xyz/login" in str(response.url):
                         closed_trackers.append(name)
