@@ -26,11 +26,9 @@ async def gather_with_concurrency(n):
                     for error in error_msg:
                         if error in str(obj):
                             down.append(name)
-                        else:
-                            continue
-                    if response.status > 500:
+                    if response.status >= 500:
                         down.append(name)
-                    elif search_term in str(obj):
+                    if search_term in str(obj):
                         closed_trackers.append(name)
                     elif "https://redbits.xyz/login" in str(response.url):
                         closed_trackers.append(name)
@@ -63,16 +61,12 @@ if __name__ == "__main__":
 
 
 def sortt(status_):
-    tempp = status_
     status_.sort()
-    status_ = str(status_).replace("[", "")
-    status_ = status_.replace("'", "")
-    status_.replace("'", "")
-    status_ = status_.replace("]", "")
-    if down == tempp:
-        print(f"\nCurrently down: {status_}")
+    status_str = ", ".join(status_)
+    if down == status_:
+        print(f"\nCurrently down: {status_str}")
     else:
-        print(f"\nCurrently closed: {status_}")
+        print(f"\nCurrently closed: {status_str}")
 
 
 sortt(down)
