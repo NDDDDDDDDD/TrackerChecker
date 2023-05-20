@@ -3,8 +3,9 @@ import aiohttp
 import json
 import requests
 
-error_msg = ["needs to review the security of your connection before proceeding", "Nebulance is temporarily offline for planned maintenance. Leave your torrents seeding in your client and we will be back shortly.", "Retrying, please wait", "404 Not Found", "down for maintenance", "The backend is currently offline","and the server is refusing to fulfill it"]
+error_msg = ["needs to review the security of your connection before proceeding", "bing.com", "We do not allow members to register multiple accounts with the same IP Address", "Nebulance is temporarily offline for planned maintenance. Leave your torrents seeding in your client and we will be back shortly.", "Retrying, please wait", "404 Not Found", "down for maintenance", "The backend is currently offline","and the server is refusing to fulfill it", "</h3></td></tr></table></body></html>"]
 down = []
+temp_down = []
 closed_trackers = []
 
 r = requests.get("https://raw.githubusercontent.com/NDDDDDDDDD/TrackerChecker/main/trackers.json")
@@ -25,8 +26,8 @@ async def gather_with_concurrency(n):
                     obj = await response.read()
                     for error in error_msg:
                         if error in str(obj):
-                            down.append(name)
-                    if response.status >= 500:
+                            temp_down.append(name)
+                    if response.status >= 500 or name in temp_down:
                         down.append(name)
                     elif search_term in str(obj):
                         closed_trackers.append(name)
