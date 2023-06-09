@@ -33,6 +33,8 @@ async def gather_with_concurrency(n):
                         closed_trackers.append(name)
                     elif "https://redbits.xyz/login" in str(response.url):
                         closed_trackers.append(name)
+                    elif "https://torrentseeds.org/buyinvite" in str(response.url):
+                        closed_trackers.append(name)
                     elif "https://pretome.info/index.php?page=home&msg=not_qualified" in str(response.url):
                         closed_trackers.append(name)
                     else:
