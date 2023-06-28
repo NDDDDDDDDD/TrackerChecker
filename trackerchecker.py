@@ -3,7 +3,7 @@ import aiohttp
 import json
 import requests
 
-error_msg = ["needs to review the security of your connection before proceeding", "bing.com", "We do not allow members to register multiple accounts with the same IP Address", "Nebulance is temporarily offline for planned maintenance. Leave your torrents seeding in your client and we will be back shortly.", "Retrying, please wait", "404 Not Found", "down for maintenance", "The backend is currently offline","and the server is refusing to fulfill it", "</h3></td></tr></table></body></html>"]
+error_msg = ["needs to review the security of your connection before proceeding", "Open registration is currently disabled", "bing.com", "We do not allow members to register multiple accounts with the same IP Address", "Nebulance is temporarily offline for planned maintenance. Leave your torrents seeding in your client and we will be back shortly.", "Retrying, please wait", "404 Not Found", "down for maintenance", "The backend is currently offline","and the server is refusing to fulfill it", "</h3></td></tr></table></body></html>"]
 down = []
 temp_down = []
 closed_trackers = []
