@@ -377,18 +377,12 @@
     {
         "name": "Generation-Free",
         "url": "https://generation-free.org/register/null",
-        "search_term": "Les inscriptions sont"
+        "search_term": "Open Registration is Closed"
     },
     {
         "name": "Peeratiko",
         "url": "https://peeratiko.org/signup.php",
         "search_term": "ignups are closed pres"
-    },
-    {
-        "name": "HDMonkey",
-        "url": "https://hdmonkey.org/account-signup.php",
-        "search_term": "orry this site has disabled user registration"
-    },
     {
         "name": "TorrentSeeds",
         "url": "https://torrentseeds.org/buyinvite",
