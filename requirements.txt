@@ -1,4 +1,3 @@
-asyncio
-aiohttp
-json
-requests
+asyncio~=3.4.3
+aiohttp~=3.8.4
+requests~=2.31.0
