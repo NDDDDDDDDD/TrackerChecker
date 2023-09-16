@@ -10,6 +10,13 @@
         "search_term": "please check back again later"
     },
     {
+        "name": "hebits",
+        "url": "https://hebits.net/register.php",
+        "archived_url_close": "https://web.archive.org/web/20230328182713/https://hebits.net/register.php",
+        "archived_url_open": "https://web.archive.org/web/20230916083629/https://hebits.net/register.php",
+        "search_term": "מצטערים, ההרשמה מותנית בהזמנה בלבד"
+    },
+    {
         "name": "TheScenePlace",
         "url": "https://www.thesceneplace.com/index.php?page=account",
         "search_term": "ry, but registrations are closed"

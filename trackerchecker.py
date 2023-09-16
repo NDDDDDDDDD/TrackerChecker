@@ -25,10 +25,14 @@ async def fetch_trackers():
     async with aiohttp.ClientSession() as session:
         async with session.get("https://raw.githubusercontent.com/NDDDDDDDDD/TrackerChecker/main/trackers.json") as response:
             trackers = await response.text()
+        ### IF YOU WANT LOCALHOST
+        # with open('trackers.json', 'r') as f:
+        #     trackers = f.read()
+            # print(trackers)
     return json.loads(trackers)
 
 async def gather_with_concurrency(n, urls):
-    conn = aiohttp.TCPConnector(limit_per_host=100, limit=100)
+    conn = aiohttp.TCPConnector(limit_per_host=20, limit=100)
     timeout = aiohttp.ClientTimeout(total=30)
     semaphore = asyncio.Semaphore(n)
     async with aiohttp.ClientSession(connector=conn, timeout=timeout) as session:
@@ -41,10 +45,18 @@ async def get(url, name, search_term, semaphore, session):
     temp_down = []
     down = []
     closed_trackers = []
+    # print(url, search_term)
     async with semaphore:
         try:
             async with session.get(url, ssl=False) as response:
-                obj = await response.read()
+                
+                try:
+                    obj = await response.read()
+                    obj = obj.decode("utf8")
+                except:
+                    obj = await response.read()
+                # if name == "hebits":
+                #     print(obj)
                 for error in error_msg:
                     if error in str(obj):
                         temp_down.append(name)
